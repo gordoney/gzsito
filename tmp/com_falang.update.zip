@@ -1,0 +1,375 @@
+<!DOCTYPE HTML>
+<html lang="fr-fr" dir="ltr"  data-config='{"twitter":0,"plusone":0,"facebook":0,"style":"faboba"}'>
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="http://www.faboba.com/fr/component/search/" />
+  <title>Rechercher</title>
+  <link href="/templates/faboba4/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/media/com_hikashop/css/frontend_old.css?t=1428394954" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/css/jcemediabox.css?380a314203b6e1c4df5166f3a813030a" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/themes/standard/css/style.css?d87dffc9fb8dea99ab4b1f595c76714f" type="text/css" />
+  <link rel="stylesheet" href="/media/mod_falang/css/template.css" type="text/css" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <style type="text/css">
+
+#hikashop_category_information_module_49 div.hikashop_subcontainer {
+	background:#FFFFFF;
+}
+#hikashop_category_information_module_49 .hikashop_rtop *,#hikashop_category_information_module_49 .hikashop_rbottom *{
+	background:#FFFFFF;
+}
+			
+#hikashop_category_information_module_49 div.hikashop_subcontainer,#hikashop_category_information_module_49 div.hikashop_subcontainer span {
+	text-align:center;
+}
+#hikashop_category_information_module_49 div.hikashop_container {
+	text-align:center;
+}
+			
+#hikashop_category_information_module_49 div.hikashop_container {
+	margin:10px 10px;
+}
+#hikashop_category_information_module_49 div.hikashop_category,#hikashop_category_information_module_49 div.hikashop_product{
+	float:left;
+}
+#hikashop_category_information_module_49 .hikashop_subcontainer {
+		 -moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		-khtml-border-radius: 5px;
+		border-radius: 5px;
+}
+
+			
+  </style>
+  <script src="/media/com_hikashop/js/hikashop.js?v=240" type="text/javascript"></script>
+  <script src="/plugins/system/jcemediabox/js/jcemediabox.js?d95577726527bb372fd7fcb454409743" type="text/javascript"></script>
+  <script src="/cache/template/jquery-040a4603.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/modal.js" type="text/javascript"></script>
+  <script type="text/javascript">
+JCEMediaBox.init({popup:{width:"",height:"",legacy:0,lightbox:0,shadowbox:0,resize:1,icons:1,overlay:1,overlayopacity:0.8,overlaycolor:"#000000",fadespeed:500,scalespeed:500,hideobjects:0,scrolling:"fixed",close:2,labels:{'close':'Fermer','next':'Suivant','previous':'Précédent','cancel':'Annuler','numbers':'{$current} sur {$total}'},cookie_expiry:"",google_viewer:0,pdfjs:0},tooltip:{className:"tooltip",opacity:0.8,speed:150,position:"br",offsets:{x: 16, y: 16}},base:"/",imgpath:"plugins/system/jcemediabox/img",theme:"standard",themecustom:"",themepath:"plugins/system/jcemediabox/themes"});
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($$('a.modal'), {
+				parse: 'rel'
+			});
+		});
+<!--
+
+	function hikashopModifyQuantity(id,obj,add,form,type,moduleid){
+		var d = document, cart_type="cart", addStr="", qty=1, e = null;
+		if(type) cart_type = type;
+		if(add) addStr = "&add=1";
+
+		if(moduleid === undefined) moduleid = 0;
+
+		if(obj){
+			qty = parseInt(obj.value);
+		}else if(document.getElementById("hikashop_product_quantity_field_"+id) && document.getElementById("hikashop_product_quantity_field_"+id).value){
+			qty = document.getElementById("hikashop_product_quantity_field_"+id).value;
+		}
+		if(form && document[form]){
+			var varform = document[form];
+			e = d.getElementById("hikashop_cart_type_"+id+"_"+moduleid);
+
+			if(!e)
+				e = d.getElementById("hikashop_cart_type_"+id);
+			if(cart_type == "wishlist"){
+				if(e) e.value = "wishlist";
+				if(varform.cid) varform.cid.value = id;
+				f = d.getElementById("type");
+				if(f) f.value = "wishlist";
+			}else{
+				if(e) e.value = "cart";
+				if(varform.cid) varform.cid.value = id;
+			}
+			if(varform.task) {
+				varform.task.value = "updatecart";
+			}
+
+			var input = document.createElement("input");
+			input.type = "hidden";
+			input.name = "from_form";
+			input.value = "true";
+			varform.appendChild(input);
+
+			varform.submit();
+		}else{
+			if(qty){
+				
+			}
+			var url = "/fr/component/hikashop/product/updatecart/tmpl-component.html?from=module&product_id="+id+"&cart_type="+cart_type+"&hikashop_ajax=1&quantity="+qty+addStr+"&return_url=aHR0cDovL3d3dy5mYWJvYmEuY29tL2ZyL2NvbXBvbmVudC9zZWFyY2g%2Fc2VhcmNocGhyYXNlPWFsbCZhbXAlM0JzZWFyY2h3b3JkPWluZGV4";
+			var completeFct = function(result) {
+				var hikaModule = false;
+				var checkmodule = false;
+				if(result == "notLogged"){ // if the customer is not logged and use add to wishlist, display a popup for the notice
+					SqueezeBox.fromElement("hikashop_notice_wishlist_box_trigger_link",{parse: "rel"});
+				}else if(result.indexOf("URL|") != "-1"){ // id the option is set to redirect, do the redirection
+					result = result.replace("URL|","");
+					window.location = result;
+					return false;
+				}else if(result != ""){ // if the result is not empty check for the module
+					checkmodule = true;
+				}
+				if(checkmodule){
+					if(cart_type != "wishlist") {
+						hikaModule = window.document.getElementById("hikashop_cart_module");
+					}else{
+						hikaModule = window.document.getElementById("hikashop_wishlist_module");
+					}
+				}
+				if(hikaModule) hikaModule.innerHTML = result;
+				if(window.jQuery && typeof(jQuery.noConflict) == "function" && !window.hkjQuery) {
+					window.hkjQuery = jQuery.noConflict();
+				}
+				if(window.hkjQuery && typeof(hkjQuery().chosen) == "function") {
+					hkjQuery( ".tochosen:not(.chzn-done)" ).removeClass('chzn-done').removeClass('tochosen').chosen();
+				}
+			};
+			try{
+				new Ajax(url, {method: "get", onComplete: completeFct}).request();
+			}catch(err){
+				new Request({url: url, method: "get", onComplete: completeFct}).send();
+			}
+		}
+		return false;
+	}
+
+//-->
+
+  </script>
+  <link rel="alternate" href="http://www.faboba.com/en/component/search/?searchphrase=all&amp;searchword=index" hreflang="en" />
+  <link rel="alternate" href="http://www.faboba.com/component/search/?searchphrase=all&amp;searchword=index" hreflang="fr" />
+
+<link rel="apple-touch-icon-precomposed" href="/templates/faboba4/apple_touch_icon.png">
+<link rel="stylesheet" href="/cache/template/theme-7fbd3346.css">
+<script src="/cache/template/theme-de84f0db.js"></script>
+<!--[if IE 8]><link rel="stylesheet" href="/templates/faboba4/css/ie8.css"><![endif]-->
+<!--[if lte IE 8]><script src="/templates/faboba4/warp/js/html5.js"></script><![endif]--></head>
+
+<body id="body" class="tm-noblog">
+
+	<div class="uk-container uk-container-center">
+
+				<div class="tm-toolbar uk-clearfix uk-hidden-small">
+
+						<div class="uk-float-left"><div class="uk-panel"><div class="mod-languages">
+
+	<ul class="lang-inline">
+	        <!-- >>> [PAID] >>> -->
+                    <li class="" dir="ltr">
+                            <a href="/en/component/search/?searchphrase=all&amp;searchword=index">
+                                        <!--mod_falang/en.gif-->                        <img src="/media/mod_falang/images/en.gif" alt="English (UK)" title="English (UK)" />                                    </a>
+            			</li>
+		        <!-- <<< [PAID] <<< -->
+        
+	        <!-- >>> [PAID] >>> -->
+                <!-- <<< [PAID] <<< -->
+        
+		</ul>
+
+</div>
+</div></div>
+			
+						<div class="uk-float-right"><div class="uk-panel"><!--login link-->
+   <div id="loginlink">
+		<a href="/fr/component/users/?view=login" >Connexion</a>
+       </div>
+<!--end login link-->
+</div>
+<div class="uk-panel"><div class="hikashop_cart_module" id="hikashop_cart_module">
+<div id="hikashop_cart" class="hikashop_cart">
+			Le panier est vide		</div>
+		<div class="clear_both"></div></div>
+</div>
+<div class="uk-panel"><ul class="uk-subnav uk-subnav-line"><li><a href="/fr/mon-compte.html">Mon compte</a></li><li><a href="/fr/mes-telechargements-ars.html">Mes téléchargements</a></li></ul></div></div>
+			
+		</div>
+		
+
+				<div class="tm-headerbar uk-clearfix uk-hidden-small">
+
+
+			<div class="uk-panel"><style type="text/css">
+body {background-image: url("http://www.faboba.com/images/header-images/header-bg7.jpg")!important; background-attachment:scroll!important; background-position:center top!important; background-repeat:no-repeat!important; background-color:transparent!important;}
+</style></div>
+		</div>
+		
+				<nav class="tm-navbar uk-navbar">
+
+							<a class="tm-logo" href="http://www.faboba.com">
+	<p><img src="/images/logo.png" border="0" alt="Faboba Logo" width="450" height="70" /></p></a>
+			
+						<ul class="uk-navbar-nav uk-hidden-small"><li data-uk-dropdown="{}"><a href="/fr/">Accueil</a></li><li data-uk-dropdown="{}"><a href="/fr/prestations.html">Prestations</a></li><li data-uk-dropdown="{}"><a href="/fr/realisations.html">Réalisations</a></li><li class="uk-parent" data-uk-dropdown="{}"><a href="/fr/composants.html">Composants</a><div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-2"><div class="uk-grid uk-dropdown-grid"><div class="uk-width-1-2"><ul class="uk-nav uk-nav-navbar"><li><a href="/fr/composants/falang/presentation.html">FaLang</a></li><li><a href="/fr/composants/amamplace/presentation.html">Amamplace</a></li><li><a href="/fr/composants/fish2falang/presentation.html">Fish2Falang</a></li><li><a href="/fr/composants/ultimate-user/presentation.html">Ultimate User</a></li></ul></div><div class="uk-width-1-2"><ul class="uk-nav uk-nav-navbar"><li><a href="/fr/composants/fanews.html">Fanews</a></li><li><a href="/fr/composants/registration-routing/presentation.html">Registration Routing</a></li><li><a href="/fr/composants/prestashop.html">Prestashop</a></li></ul></div></div></div></li><li data-uk-dropdown="{}"><a href="/fr/contact.html">Contact</a></li></ul>			
+			
+			
+			
+		</nav>
+		
+
+		
+		
+				<div class="tm-middle uk-grid" data-uk-grid-match data-uk-grid-margin>
+
+						<div class="tm-main uk-width-medium-1-1">
+
+				
+								<main class="tm-content">
+
+										<ul class="uk-breadcrumb"><li class="uk-active"><span>Home</span></li></ul>					
+					
+<div id="system-message-container">
+</div>
+
+
+
+<form class="uk-form uk-panel uk-panel-box" id="searchForm" action="/fr/component/search/" method="post" name="searchForm">
+
+	<fieldset>
+		<legend>Rechercher</legend>
+	
+		<div class="uk-form-row">
+			<label for="search_searchword">Élément à rechercher :</label>
+			<input type="text" name="searchword" id="search_searchword" size="30" maxlength="20" value="index" class="inputbox" />
+			<button class="uk-button uk-button-primary" name="Search" onclick="this.form.submit()" class="button">Rechercher</button>
+		</div>
+		
+		<div class="uk-form-row">
+			
+	<input type="radio" name="searchphrase" id="searchphraseall" value="all"  checked="checked" />
+	<label for="searchphraseall" id="searchphraseall-lbl" class="radiobtn">Tous les mots</label>
+	<input type="radio" name="searchphrase" id="searchphraseany" value="any"  />
+	<label for="searchphraseany" id="searchphraseany-lbl" class="radiobtn">N'importe quel mot</label>
+	<input type="radio" name="searchphrase" id="searchphraseexact" value="exact"  />
+	<label for="searchphraseexact" id="searchphraseexact-lbl" class="radiobtn">Phrase exacte</label>
+		</div>
+		
+		<div class="uk-form-row">
+			<label for="ordering">Classement :</label>
+			<select id="ordering" name="ordering" class="inputbox">
+	<option value="newest" selected="selected">Le plus r&eacute;cent en premier</option>
+	<option value="oldest">Le plus ancien en premier</option>
+	<option value="popular">Les plus populaires</option>
+	<option value="alpha">Alphab&eacute;tique</option>
+	<option value="category">Cat&eacute;gorie</option>
+</select>
+		</div>
+		
+				<div class="uk-form-row">
+			Rechercher seulement dans :											<input type="checkbox" name="areas[]" value="categories" id="area_categories"  />
+				<label for="area_categories">
+					Catégories de produits				</label>
+											<input type="checkbox" name="areas[]" value="content" id="area_content"  />
+				<label for="area_content">
+					Articles				</label>
+											<input type="checkbox" name="areas[]" value="manufacturers" id="area_manufacturers"  />
+				<label for="area_manufacturers">
+					Fabricants				</label>
+											<input type="checkbox" name="areas[]" value="products" id="area_products"  />
+				<label for="area_products">
+					Produits				</label>
+					</div>
+		
+				<div class="uk-form-row">
+			<strong>Total : 2 résultats trouvés.</strong>		</div>
+					
+	</fieldset>
+
+		<div class="clearfix">
+		<label for="limit">Affichage #</label>
+		<select id="limit" name="limit" class="inputbox" size="1" onchange="this.form.submit()">
+	<option value="5">5</option>
+	<option value="10">10</option>
+	<option value="15">15</option>
+	<option value="20" selected="selected">20</option>
+	<option value="25">25</option>
+	<option value="30">30</option>
+	<option value="50">50</option>
+	<option value="100">100</option>
+	<option value="0">Tout</option>
+</select>
+			</div>
+	
+	<input type="hidden" name="task" value="search" />
+</form>	
+
+<div class="uk-margin">
+
+		<article class="uk-article">
+		
+				<h1 class="uk-article-title"><a href="/fr/composants/ultimate-user/changelog.html" >Changelog</a></h1>
+		
+				<p class="uk-article-meta">
+			Créé le 29 juin 2015. 			Publié dans Ultimate User		</p>
+				
+		...&#160;(2013-03-18) 
+
+	bugfix : validate fields email 
+	add <span class="highlight">index</span>.html and info due to the jed rules 
+
+1.0.1 (2013-02-22) 
+
+	add plugin User-ultimateuser 
+	bugfix Fo display groups user 
+	<span class="highlight">index</span>.html&#160;...
+	</article>
+		<article class="uk-article">
+		
+				<h1 class="uk-article-title"><a href="/fr/composants/falang/changelog.html" >Changelog</a></h1>
+		
+				<p class="uk-article-meta">
+			Créé le 22 septembre 2014. 			Publié dans Falang		</p>
+				
+		...&#160;$this-&gt;escape in TranslationFilter 1.1.5 (2012/06/18) 
+Joomla 2.2.5 compatibility 
+modf_falang bug fix on url like (<span class="highlight">index</span>.php/component/content/article?id=39) 
+
+1.1.4(2012/06/04) 
+
+add image languages&#160;...
+	</article>
+	
+</div>
+
+
+
+				</main>
+				
+				
+			</div>
+			
+                                    
+		</div>
+		
+		
+		
+				<footer class="tm-footer">
+
+			
+			<div class="uk-panel"><script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-3263232-5']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+</div>
+		</footer>
+		
+	</div>
+
+	
+	
+</body>
+</html>

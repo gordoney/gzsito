@@ -1,0 +1,1000 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Regular.eot');
+  src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Lato-Regular.woff2') format('woff2'),
+  url('../fonts/Lato-Regular.woff') format('woff'),
+  url('../fonts/Lato-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'Lato Bold';
+  src: url('../fonts/Lato-Bold.eot');
+  src: url('../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Lato-Bold.woff2') format('woff2'),
+  url('../fonts/Lato-Bold.woff') format('woff'),
+  url('../fonts/Lato-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?j12qyr');
+    src:  url('../fonts/icomoon.eot?j12qyr#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?j12qyr') format('truetype'),
+    url('../fonts/icomoon.woff?j12qyr') format('woff'),
+    url('../fonts/icomoon.svg?j12qyr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone-call:before {
+    content: "\e901";
+}
+
+.icon-musica-searcher:before {
+    content: "\e900";
+}
+
+
+@-webkit-keyframes shake {
+    from {.transform(0);}
+    20% {.transform(30deg);}
+    50% {.transform(-30deg);}
+    80% {.transform(30deg);}
+    to {.transform(0);}
+}
+
+
+/* colors */
+@color1: #284492;
+@color2: #ff003c;
+@color3: #000000;
+@color4: #ffffff;
+
+@font-color1: #284492;
+@font-color2: #ff003c;
+@font-color3: #000000;
+@font-color4: #ffffff;
+
+@font1: 'Lato';
+@font1-bold: 'Lato Bold';
+@font1-light: 'Lato-Light';
+@font2: 'Open Sans';
+@font3: 'Arial';
+
+.transition(@value) {
+	-webkit-transition: all @value linear;
+	-o-transition: all @value linear;
+	-moz-transition: all @value linear;
+	transition: all @value linear;
+}
+
+.transform(@value) {
+    -moz-transform: rotate(@value);
+    -o-transform: rotate(@value);
+    -webkit-transform: rotate(@value);
+    transform: rotate(@value);
+}
+
+.scale(@value) {
+     -moz-transform: scale(@value);
+     -o-transform: scale(@value);
+     -webkit-transform: scale(@value);
+     transform: scale(@value);
+}
+
+.grayscale() {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); 
+    filter: gray; 
+    -webkit-filter: grayscale(100%);
+}
+
+.grayscale-off() {
+    filter: url("data:image/svg+xml;utf8,&lt;svg xmlns=\'http://www.w3.org/2000/svg\'&gt;&lt;filter id=\'grayscale\'&gt;&lt;feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/&gt;&lt;/filter&gt;&lt;/svg&gt;#grayscale");
+    -webkit-filter: grayscale(0%);
+}
+
+.gradient(@color1, @color2, @color-default, @position1) {
+    background: @color-default; /* for non-css3 browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@color1', endColorstr='@color2'); /* для IE6-9 */
+    background: -webkit-linear-gradient(@position1, @color1, @color2); /* для webkit-браузеров */
+    background: -moz-linear-gradient(@position1,  @color1,  @color2); /* для firefox 3.6+ */
+    background: -o-linear-gradient(@position1,  @color1,  @color2); /* для Opera 11.10+ */
+    background: -ms-linear-gradient(@position1,  @color1,  @color2); /* для IE10+ */
+}
+
+.radial-gradient(@color1, @size1, @color2, @size2, @color-default) {
+    background: @color-default; /* for non-css3 browsers */
+    background: -webkit-radial-gradient(@color1 @size1, @color2 @size2); /* Chrome10+,Safari5.1+ */
+    background: -moz-radial-gradient(@color1 @size1, @color2 @size2); /* FF3.6+ */
+    background: -o-radial-gradient(@color1 @size1, @color2 @size2); /* Opera 11.10+ */
+    background: -ms-radial-gradient(@color1 @size1, @color2 @size2); /* IE10+ */
+    background: radial-gradient(@color1 @size1, @color2 @size2); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=@color-default, endColorstr=@color-default); /* IE6-8 */
+}
+
+.container {
+    width: 1180px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+    font-family: @font2;
+    line-height: 1;
+    color: @font-color3;
+}
+
+body.mainpage #content{
+    display: none;
+}
+
+a {
+    .transition(0.2s);
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+::-moz-selection {
+    background: @color1;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+::selection {
+    background: @color1;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+h1 {
+    font-size: 1em;
+    margin: 0;
+}
+
+.border_red {
+    border: 1px solid @color2 !important;
+}
+
+.mainpage .main-content{
+    display: none;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #HEADER (шапка)
+\*------------------------------------*/
+.header {
+    padding: 20px 0;
+}
+
+.header-block {
+    float: left;
+}
+
+.header-left {
+    width: 20%;
+    margin-right: 3%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.header-center {
+    width: 55%;
+}
+
+.header-right {
+    width: 22%;
+    text-align: right;
+    font-family: @font1;
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+
+
+
+
+/*------------------------------------*\
+    #MOD_SEARCH (модуль поиска)
+\*------------------------------------*/
+.search {
+    width: 90%;
+    float: left;
+
+    .search-query {
+        width: 72%;
+        height: 36px;
+        border: 1px solid darken(@color4, 20%);
+        padding: 0 15px;
+        border-radius: 2px;
+    }
+
+    button {
+        height: 38px;
+        padding: 0 15px 0 25px;
+        background-color: @color1;
+        color: @font-color4;
+        font-size: 15px;
+        font-family: @font1;
+        border: 1px solid @color1;
+        vertical-align: top;
+        position: relative;
+        left: -5px;
+        border-radius: 3px;
+        .transition(0.2s);
+
+        &:hover {
+            background-color: @color4;
+            color: @font-color1;
+        }
+    }
+
+    i {
+        position: relative;
+        left: -10px;
+        top: 1px;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    #MOD_LANG (модуль языков)
+\*------------------------------------*/
+.mod-languages {
+    width: 10%;
+    float: left;
+
+    a {
+        display: inline-block;
+        padding: 10px 25px 10px 10px;
+        border: 2px solid darken(@color4, 20%);
+        border-radius: 3px;
+        position: relative;
+
+        &:hover {
+            border: 2px solid darken(@color4, 40%);
+        }
+    }
+
+    a:after {
+        content: '';
+        position: absolute;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-top: 5px solid darken(@color4, 20%);
+        display: block;
+        top: 16px;
+        right: 8px;
+        .transition(0.2s);
+    }
+
+    a:hover:after {
+        border-top: 5px solid darken(@color4, 40%);
+    }
+
+    .dropdown-menu {
+        min-width: 10px;
+    }
+
+    li {
+        padding: 10px 0;
+        cursor: pointer;
+        margin-right: 2px !important;
+        width: 54px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+/*------------------------------------*\
+    #MOD_MENU_TOP (модуль верхнего меню)
+\*------------------------------------*/
+.mod-menu-top {
+    padding-top: 25px;
+
+    li {
+        display: inline-block;
+    }
+
+    li + li {
+        padding-left: 47px;
+    }
+
+    a {
+        font-size: 15px;
+        font-family: @font1;
+        color: @font-color1;
+        border-bottom: 1px solid @color1;
+
+        &:hover {
+            border-bottom: 1px solid transparent;
+        }
+    }
+}
+
+
+
+
+
+
+/*------------------------------------*\
+    #MOD_MENU_TOP (модуль верхнего меню)
+\*------------------------------------*/
+.mod_form_gr {
+    .modal_form_btn {
+        color: @font-color4;
+        padding: 9px 20px 9px 15px;
+        background-color: darken(@font-color1, 3%);
+        border-radius: 2px;
+        .transition(0.3s);
+        cursor: pointer;
+        border: 1px solid darken(@font-color1, 3%);
+        position: relative;
+        font-size: 14px;
+        display: inline-block;
+        font-family: @font1;
+        margin-top: 23px;
+        margin-right: 30px;
+
+        &:hover {
+            background-color: @color2;
+            border: 1px solid @color2;
+        }
+
+        &:after {
+            font-family: 'icomoon';
+            content: "\e901";
+            height: 50px;
+            width: 50px;
+            border-radius: 100%;
+            background-color: @color2;
+            color: @color4;
+            display: inline-block;
+            text-align: center;
+            font-size: 22px;
+            border: 3px solid @color4;
+            padding-top: 10px;
+            position: absolute;
+            right: -35px;
+            top: -9px;
+            .transition(0.2s);
+        }
+
+        &:hover:after {
+            animation: shake 0.4s linear;
+        }
+    }
+}
+
+
+
+
+
+
+/*------------------------------------*\
+    #SLIDER (Слайдер)
+\*------------------------------------*/
+.mod-slider-gr {
+    position: relative;
+
+    .item {
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+        height: 325px;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .dots-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .dots {
+        position: absolute;
+        right: 0;
+        top: 130px;
+    }
+
+    .dot {
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        border: 3px solid @color4;
+        background-color: @color4;
+        cursor: pointer;
+        margin: 5px 0;
+        .transition(0.2s);
+    }
+
+    .dot:hover {
+        background-color: white;
+    }
+
+    .dot.active, .dot.active:hover {
+        background-color: @color2;
+    }
+
+    .text {
+        width: 55%;
+        padding-top: 100px;
+        font-size: 30px;
+        color: @font-color4;
+        line-height: 1.2;
+        font-family: @font1-bold;
+        text-transform: uppercase;
+    }
+
+    .readmore {
+        position: relative;
+        z-index: 1;
+        margin-top: 40px;
+
+        a {
+            font-family: @font1-bold;
+            font-size: 16px;
+            text-transform: uppercase;
+            position: relative;
+            padding: 15px 60px 15px 15px;
+            border: 2px solid @color4;
+            color: @color4;
+            background-color: transparent;
+
+            &:hover {
+                background-color: @color1;
+                border: 2px solid @color1;
+            }
+
+            &:hover span {
+                border-left: 2px solid @color1;
+            }
+        }
+
+        span {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            padding: 14px;
+            border-left: 2px solid @color4;
+            .transition(0.2s);
+        }
+    }
+}
+
+
+
+
+
+
+/*------------------------------------*\
+    #MOD_CATEGORY (модуль категорий на главной)
+\*------------------------------------*/
+.mod_blocks_gr.default {
+    background-color: lighten(@color1, 53%);
+    padding: 20px 0;
+    margin-bottom: 30px;
+
+    .blocks {
+        margin-left: -20px;
+    }
+
+    .block {
+        float: left;
+        width: 25%;
+        padding-left: 20px;
+    }
+
+    a {
+        display: block;
+        background-color: white;
+        position: relative;
+        overflow: hidden;
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: @color1;
+            opacity: 0;
+            visibility: hidden;
+            .transition(0.2s);
+        }
+
+        &:hover:after {
+            opacity: 0.7;
+            visibility: visible;
+        }
+
+        &:hover .img {
+            .scale(1.2);
+        }
+
+        &:hover .name {
+            color: @color4;
+        }
+    }
+
+    .img {
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right -25px;
+        .transition(0.2s);
+        .scale(1);
+    }
+
+    .name {
+        font-family: @font1-bold;
+        font-size: 16px;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 15px 20px 25px 20px;
+        height: 75px;
+        line-height: 1.1;
+        position: relative;
+        z-index: 1;
+        color: @color1;
+        .transition(0.2s);
+    }
+}
+
+
+
+
+
+
+/*------------------------------------*\
+    #BLOCKS_MAIN (блоки на главной)
+\*------------------------------------*/
+.after-content-style-none {
+    position: relative;
+    padding-bottom: 40px;
+
+    .container {
+        position: relative;
+    }
+
+    .all-news {
+        position: absolute;
+        right: 0;
+        top: 30px;
+
+        a {
+            color: lighten(@color1, 30%);
+            border-bottom: 1px solid lighten(@color1, 30%);
+
+            &:hover {
+                border-bottom: 1px solid transparent;
+            }
+        }
+    }
+
+    .name {
+        font-size: 30px;
+        font-family: @font3;
+        padding: 20px 0 30px 0;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: lighten(@color3, 30%);
+    }
+
+    .block-main {
+        float: left;
+        width: 25%;
+        height: 260px;
+    }
+
+    .news-single:nth-child(even) {
+        background-color: lighten(@color1, 53%);
+    }
+
+    .news-single:nth-child(odd) {
+        background-color: lighten(@color1, 60%);
+    }
+
+    .news-single {
+        padding: 30px 20px;
+    }
+
+    .newsflash-title {
+        font-size: 16px;
+        font-weight: bold;
+        color: @color1;
+        text-transform: uppercase;
+        font-family: @font3;
+        padding-bottom: 20px;
+    }
+
+    .intro {
+        color: lighten(@color3, 40%);
+        line-height: 1.4;
+    }
+
+    .readmore {
+        margin-top: 15px;
+
+        a {
+            border-bottom: 2px solid lighten(@color1, 40%);
+            color: lighten(@color1, 10%);
+
+            &:hover {
+                border-bottom: 2px solid transparent;
+            }
+        }
+    }
+
+    .director {
+        color: @font-color4;
+        background-color: @color1;
+        padding: 40px 20px;
+
+        .prof {
+            font-family: @font3;
+            font-size: 16px;
+            font-weight: bold;
+            padding-bottom: 30px;
+        }
+
+        .quote {
+            font-family: @font1;
+            font-size: 14px;
+            color: lighten(@color1, 50%);
+            line-height: 1.5;
+            padding-left: 20px;
+            position: relative;
+            margin-bottom: 40px;
+        }
+
+        .open-quote {
+            font-family: @font3;
+            font-size: 26px;
+            font-weight: bold;
+            position: absolute;
+            left: 0px;
+            top: -10px;
+        }
+
+        .close-quote {
+            font-family: @font3;
+            font-size: 26px;
+            font-weight: bold;
+            position: absolute;
+            bottom: -10px;
+            right: 0px;
+        }
+
+        .fio {
+            font-family: @font3;
+            font-size: 12px;
+        }
+
+        &.img {
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .block-main.slider {
+        width: 50%;
+        padding: 40px;
+
+        .img {
+            width: 30%;
+            float: left;
+        }
+
+        .desc {
+            width: 65%;
+            float: left;
+            position: relative;
+            margin-left: 5%;
+            padding-bottom: 40px;
+        }
+
+        .item {
+            height: auto;
+        }
+
+        .dots {
+            bottom: 0;
+            left: 0;
+            top: auto;
+        }
+
+        .dot {
+            display: inline-block;
+            background-color: lighten(@color3, 60%);
+            border: none;
+            height: 15px;
+            width: 15px;
+        }
+
+        .dot + .dot {
+        }
+
+        .dot.active {
+            background-color: lighten(@color1, 15%);
+        }
+
+        .name {
+            font-weight: bold;
+            font-family: @font3;
+            font-size: 16px;
+            color: @font-color1;
+            padding: 10px 0 25px 0;
+        }
+
+        .desc-name {
+            line-height: 1.4;
+            color: lighten(@color3, 55%);
+            font-size: 14px;
+            font-family: @font1;
+        }
+
+        img {
+            border: 6px solid lighten(@color1, 50%);
+        }
+    }
+}
+
+
+
+
+
+
+/*------------------------------------*\
+    #MOD_JOOMSHOPPING_CATEGORIES (модуль категорий)
+\*------------------------------------*/
+.mod_jshopping_categories {
+    margin-left: -25px;
+    padding-bottom: 30px;
+
+    .categories_group {
+        width: 25%;
+        float: left;
+        padding-left: 25px;
+    }
+
+    .jshop_menu_level_0 {
+        padding-bottom: 25px;
+        border-bottom: 1px solid lighten(@color1, 54%);
+        margin-bottom: 25px;
+
+        a {
+            font-size: 16px;
+            font-weight: bold;
+            font-family: @font3;
+            color: @font-color1;
+
+            &:hover {
+
+            }
+        }
+    }
+
+    .child-cat {
+        padding-bottom: 15px;
+
+        a {
+            color: lighten(@color3, 40%);
+            font-family: @font3;
+            line-height: 1.1;
+
+            &:hover {
+                color: @color1;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+/*------------------------------------*\
+    #FOOTER (футер)
+\*------------------------------------*/
+.footer {
+    .container {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-top: 1px solid lighten(@color1, 54%);
+    }
+
+    .custom {
+        float: left;
+        width: 25%;
+    }
+
+    img {
+        max-width: 50%;
+    }
+
+    .phone {
+        font-size: 22px;
+        font-family: @font3;
+        color: lighten(@color3, 30%);
+        padding-top: 8px;
+
+        span {
+            color: @color1;
+        }
+
+        p {
+            display: inline-block;
+            width: 80%;
+        }
+
+        &:before {
+            content: '';
+            background-image: url(../images/phone.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 43px;
+            height: 43px;
+            display: inline-block;
+            border: 2px solid @color1;
+            border-radius: 100%;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+    }
+
+    .mail {
+        font-size: 16px;
+        font-family: @font3;
+        color: lighten(@color3, 30%);
+        padding-top: 8px;
+
+        p {
+            display: inline-block;
+            width: 80%;
+        }
+
+        &:before {
+            content: '';
+            background-image: url(../images/mail.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 43px;
+            height: 43px;
+            display: inline-block;
+            border: 2px solid @color1;
+            border-radius: 100%;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+    }
+
+    .medialine {
+        padding-top: 22px;
+        font-size: 16px;
+        font-family: @font3;
+        color: lighten(@color3, 30%);
+
+        a {
+            color: @color1;
+            border-bottom: 1px solid @color1;
+
+            &:hover {
+                border-bottom: 1px solid transparent;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+/*------------------------------------*\
+    #MODAL_FORM (форма)
+\*------------------------------------*/
+.modal-content {
+    padding: 30px;
+    position: relative;
+    text-align: left;
+
+    .close {
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        font-size: 28px;
+        cursor: pointer;
+
+        &:hover {
+            color: @color1;
+        }
+    }
+
+    .page-head {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .input {
+        height: 38px;
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .text {
+        text-align: left;
+        padding-bottom: 5px;
+        padding-top: 15px;
+        font-size: 16px;
+    }
+
+    .send {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    button {
+        padding: 6px 70px;
+        font-size: 18px;
+        border: 1px solid @color1;
+        background-color: @color1;
+        color: @color4;
+        .transition(0.2s);
+
+        &:hover {
+            background-color: @color4;
+            color: @color1;
+        }
+    }
+}

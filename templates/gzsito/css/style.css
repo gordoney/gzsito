@@ -1,0 +1,798 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato-Regular.eot');
+  src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Lato-Regular.woff2') format('woff2'), url('../fonts/Lato-Regular.woff') format('woff'), url('../fonts/Lato-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: 'Lato Bold';
+  src: url('../fonts/Lato-Bold.eot');
+  src: url('../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Lato-Bold.woff2') format('woff2'), url('../fonts/Lato-Bold.woff') format('woff'), url('../fonts/Lato-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?j12qyr');
+  src: url('../fonts/icomoon.eot?j12qyr#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?j12qyr') format('truetype'), url('../fonts/icomoon.woff?j12qyr') format('woff'), url('../fonts/icomoon.svg?j12qyr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-phone-call:before {
+  content: "\e901";
+}
+.icon-musica-searcher:before {
+  content: "\e900";
+}
+@-webkit-keyframes shake {
+  from {
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  20% {
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+  50% {
+    -moz-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+  }
+  80% {
+    -moz-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+  to {
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+}
+/* colors */
+.container {
+  width: 1180px;
+  margin-right: auto;
+  margin-left: auto;
+}
+body {
+  font-family: 'Open Sans';
+  line-height: 1;
+  color: #000000;
+}
+body.mainpage #content {
+  display: none;
+}
+a {
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+.clearfix:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+::-moz-selection {
+  background: #284492;
+  color: #ffffff;
+  text-shadow: none;
+}
+::selection {
+  background: #284492;
+  color: #ffffff;
+  text-shadow: none;
+}
+h1 {
+  font-size: 1em;
+  margin: 0;
+}
+.border_red {
+  border: 1px solid #ff003c !important;
+}
+.mainpage .main-content {
+  display: none;
+}
+/*------------------------------------*\
+    #HEADER (шапка)
+\*------------------------------------*/
+.header {
+  padding: 20px 0;
+}
+.header-block {
+  float: left;
+}
+.header-left {
+  width: 20%;
+  margin-right: 3%;
+}
+.header-left img {
+  width: 100%;
+}
+.header-center {
+  width: 55%;
+}
+.header-right {
+  width: 22%;
+  text-align: right;
+  font-family: 'Lato';
+  font-size: 22px;
+  padding-top: 5px;
+}
+/*------------------------------------*\
+    #MOD_SEARCH (модуль поиска)
+\*------------------------------------*/
+.search {
+  width: 90%;
+  float: left;
+}
+.search .search-query {
+  width: 72%;
+  height: 36px;
+  border: 1px solid #cccccc;
+  padding: 0 15px;
+  border-radius: 2px;
+}
+.search button {
+  height: 38px;
+  padding: 0 15px 0 25px;
+  background-color: #284492;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Lato';
+  border: 1px solid #284492;
+  vertical-align: top;
+  position: relative;
+  left: -5px;
+  border-radius: 3px;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.search button:hover {
+  background-color: #ffffff;
+  color: #284492;
+}
+.search i {
+  position: relative;
+  left: -10px;
+  top: 1px;
+}
+/*------------------------------------*\
+    #MOD_LANG (модуль языков)
+\*------------------------------------*/
+.mod-languages {
+  width: 10%;
+  float: left;
+}
+.mod-languages a {
+  display: inline-block;
+  padding: 10px 25px 10px 10px;
+  border: 2px solid #cccccc;
+  border-radius: 3px;
+  position: relative;
+}
+.mod-languages a:hover {
+  border: 2px solid #999999;
+}
+.mod-languages a:after {
+  content: '';
+  position: absolute;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid #cccccc;
+  display: block;
+  top: 16px;
+  right: 8px;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.mod-languages a:hover:after {
+  border-top: 5px solid #999999;
+}
+.mod-languages .dropdown-menu {
+  min-width: 10px;
+}
+.mod-languages li {
+  padding: 10px 0;
+  cursor: pointer;
+  margin-right: 2px !important;
+  width: 54px;
+  text-align: center;
+}
+/*------------------------------------*\
+    #MOD_MENU_TOP (модуль верхнего меню)
+\*------------------------------------*/
+.mod-menu-top {
+  padding-top: 25px;
+}
+.mod-menu-top li {
+  display: inline-block;
+}
+.mod-menu-top li + li {
+  padding-left: 47px;
+}
+.mod-menu-top a {
+  font-size: 15px;
+  font-family: 'Lato';
+  color: #284492;
+  border-bottom: 1px solid #284492;
+}
+.mod-menu-top a:hover {
+  border-bottom: 1px solid transparent;
+}
+/*------------------------------------*\
+    #MOD_MENU_TOP (модуль верхнего меню)
+\*------------------------------------*/
+.mod_form_gr .modal_form_btn {
+  color: #ffffff;
+  padding: 9px 20px 9px 15px;
+  background-color: #253e86;
+  border-radius: 2px;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  cursor: pointer;
+  border: 1px solid #253e86;
+  position: relative;
+  font-size: 14px;
+  display: inline-block;
+  font-family: 'Lato';
+  margin-top: 23px;
+  margin-right: 30px;
+}
+.mod_form_gr .modal_form_btn:hover {
+  background-color: #ff003c;
+  border: 1px solid #ff003c;
+}
+.mod_form_gr .modal_form_btn:after {
+  font-family: 'icomoon';
+  content: "\e901";
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background-color: #ff003c;
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  font-size: 22px;
+  border: 3px solid #ffffff;
+  padding-top: 10px;
+  position: absolute;
+  right: -35px;
+  top: -9px;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.mod_form_gr .modal_form_btn:hover:after {
+  animation: shake 0.4s linear;
+}
+/*------------------------------------*\
+    #SLIDER (Слайдер)
+\*------------------------------------*/
+.mod-slider-gr {
+  position: relative;
+}
+.mod-slider-gr .item {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 325px;
+}
+.mod-slider-gr .container {
+  position: relative;
+}
+.mod-slider-gr .dots-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.mod-slider-gr .dots {
+  position: absolute;
+  right: 0;
+  top: 130px;
+}
+.mod-slider-gr .dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 3px solid #ffffff;
+  background-color: #ffffff;
+  cursor: pointer;
+  margin: 5px 0;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.mod-slider-gr .dot:hover {
+  background-color: white;
+}
+.mod-slider-gr .dot.active,
+.mod-slider-gr .dot.active:hover {
+  background-color: #ff003c;
+}
+.mod-slider-gr .text {
+  width: 55%;
+  padding-top: 100px;
+  font-size: 30px;
+  color: #ffffff;
+  line-height: 1.2;
+  font-family: 'Lato Bold';
+  text-transform: uppercase;
+}
+.mod-slider-gr .readmore {
+  position: relative;
+  z-index: 1;
+  margin-top: 40px;
+}
+.mod-slider-gr .readmore a {
+  font-family: 'Lato Bold';
+  font-size: 16px;
+  text-transform: uppercase;
+  position: relative;
+  padding: 15px 60px 15px 15px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+}
+.mod-slider-gr .readmore a:hover {
+  background-color: #284492;
+  border: 2px solid #284492;
+}
+.mod-slider-gr .readmore a:hover span {
+  border-left: 2px solid #284492;
+}
+.mod-slider-gr .readmore span {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding: 14px;
+  border-left: 2px solid #ffffff;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+/*------------------------------------*\
+    #MOD_CATEGORY (модуль категорий на главной)
+\*------------------------------------*/
+.mod_blocks_gr.default {
+  background-color: #d5ddf3;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+.mod_blocks_gr.default .blocks {
+  margin-left: -20px;
+}
+.mod_blocks_gr.default .block {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+.mod_blocks_gr.default a {
+  display: block;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+.mod_blocks_gr.default a:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #284492;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.mod_blocks_gr.default a:hover:after {
+  opacity: 0.7;
+  visibility: visible;
+}
+.mod_blocks_gr.default a:hover .img {
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.mod_blocks_gr.default a:hover .name {
+  color: #ffffff;
+}
+.mod_blocks_gr.default .img {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right -25px;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.mod_blocks_gr.default .name {
+  font-family: 'Lato Bold';
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 20px 25px 20px;
+  height: 75px;
+  line-height: 1.1;
+  position: relative;
+  z-index: 1;
+  color: #284492;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+/*------------------------------------*\
+    #BLOCKS_MAIN (блоки на главной)
+\*------------------------------------*/
+.after-content-style-none {
+  position: relative;
+  padding-bottom: 40px;
+}
+.after-content-style-none .container {
+  position: relative;
+}
+.after-content-style-none .all-news {
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+.after-content-style-none .all-news a {
+  color: #7993da;
+  border-bottom: 1px solid #7993da;
+}
+.after-content-style-none .all-news a:hover {
+  border-bottom: 1px solid transparent;
+}
+.after-content-style-none .name {
+  font-size: 30px;
+  font-family: 'Arial';
+  padding: 20px 0 30px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+.after-content-style-none .block-main {
+  float: left;
+  width: 25%;
+  height: 260px;
+}
+.after-content-style-none .news-single:nth-child(even) {
+  background-color: #d5ddf3;
+}
+.after-content-style-none .news-single:nth-child(odd) {
+  background-color: #f1f4fb;
+}
+.after-content-style-none .news-single {
+  padding: 30px 20px;
+}
+.after-content-style-none .newsflash-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #284492;
+  text-transform: uppercase;
+  font-family: 'Arial';
+  padding-bottom: 20px;
+}
+.after-content-style-none .intro {
+  color: #666666;
+  line-height: 1.4;
+}
+.after-content-style-none .readmore {
+  margin-top: 15px;
+}
+.after-content-style-none .readmore a {
+  border-bottom: 2px solid #a1b3e5;
+  color: #3357ba;
+}
+.after-content-style-none .readmore a:hover {
+  border-bottom: 2px solid transparent;
+}
+.after-content-style-none .director {
+  color: #ffffff;
+  background-color: #284492;
+  padding: 40px 20px;
+}
+.after-content-style-none .director .prof {
+  font-family: 'Arial';
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.after-content-style-none .director .quote {
+  font-family: 'Lato';
+  font-size: 14px;
+  color: #c9d3f0;
+  line-height: 1.5;
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 40px;
+}
+.after-content-style-none .director .open-quote {
+  font-family: 'Arial';
+  font-size: 26px;
+  font-weight: bold;
+  position: absolute;
+  left: 0px;
+  top: -10px;
+}
+.after-content-style-none .director .close-quote {
+  font-family: 'Arial';
+  font-size: 26px;
+  font-weight: bold;
+  position: absolute;
+  bottom: -10px;
+  right: 0px;
+}
+.after-content-style-none .director .fio {
+  font-family: 'Arial';
+  font-size: 12px;
+}
+.after-content-style-none .director.img {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.after-content-style-none .block-main.slider {
+  width: 50%;
+  padding: 40px;
+}
+.after-content-style-none .block-main.slider .img {
+  width: 30%;
+  float: left;
+}
+.after-content-style-none .block-main.slider .desc {
+  width: 65%;
+  float: left;
+  position: relative;
+  margin-left: 5%;
+  padding-bottom: 40px;
+}
+.after-content-style-none .block-main.slider .item {
+  height: auto;
+}
+.after-content-style-none .block-main.slider .dots {
+  bottom: 0;
+  left: 0;
+  top: auto;
+}
+.after-content-style-none .block-main.slider .dot {
+  display: inline-block;
+  background-color: #999999;
+  border: none;
+  height: 15px;
+  width: 15px;
+}
+.after-content-style-none .block-main.slider .dot.active {
+  background-color: #3d62ca;
+}
+.after-content-style-none .block-main.slider .name {
+  font-weight: bold;
+  font-family: 'Arial';
+  font-size: 16px;
+  color: #284492;
+  padding: 10px 0 25px 0;
+}
+.after-content-style-none .block-main.slider .desc-name {
+  line-height: 1.4;
+  color: #8c8c8c;
+  font-size: 14px;
+  font-family: 'Lato';
+}
+.after-content-style-none .block-main.slider img {
+  border: 6px solid #c9d3f0;
+}
+/*------------------------------------*\
+    #MOD_JOOMSHOPPING_CATEGORIES (модуль категорий)
+\*------------------------------------*/
+.mod_jshopping_categories {
+  margin-left: -25px;
+  padding-bottom: 30px;
+}
+.mod_jshopping_categories .categories_group {
+  width: 25%;
+  float: left;
+  padding-left: 25px;
+}
+.mod_jshopping_categories .jshop_menu_level_0 {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #d9e0f5;
+  margin-bottom: 25px;
+}
+.mod_jshopping_categories .jshop_menu_level_0 a {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Arial';
+  color: #284492;
+}
+.mod_jshopping_categories .child-cat {
+  padding-bottom: 15px;
+}
+.mod_jshopping_categories .child-cat a {
+  color: #666666;
+  font-family: 'Arial';
+  line-height: 1.1;
+}
+.mod_jshopping_categories .child-cat a:hover {
+  color: #284492;
+}
+/*------------------------------------*\
+    #FOOTER (футер)
+\*------------------------------------*/
+.footer .container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top: 1px solid #d9e0f5;
+}
+.footer .custom {
+  float: left;
+  width: 25%;
+}
+.footer img {
+  max-width: 50%;
+}
+.footer .phone {
+  font-size: 22px;
+  font-family: 'Arial';
+  color: #4d4d4d;
+  padding-top: 8px;
+}
+.footer .phone span {
+  color: #284492;
+}
+.footer .phone p {
+  display: inline-block;
+  width: 80%;
+}
+.footer .phone:before {
+  content: '';
+  background-image: url(../images/phone.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 43px;
+  height: 43px;
+  display: inline-block;
+  border: 2px solid #284492;
+  border-radius: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.footer .mail {
+  font-size: 16px;
+  font-family: 'Arial';
+  color: #4d4d4d;
+  padding-top: 8px;
+}
+.footer .mail p {
+  display: inline-block;
+  width: 80%;
+}
+.footer .mail:before {
+  content: '';
+  background-image: url(../images/mail.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 43px;
+  height: 43px;
+  display: inline-block;
+  border: 2px solid #284492;
+  border-radius: 100%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.footer .medialine {
+  padding-top: 22px;
+  font-size: 16px;
+  font-family: 'Arial';
+  color: #4d4d4d;
+}
+.footer .medialine a {
+  color: #284492;
+  border-bottom: 1px solid #284492;
+}
+.footer .medialine a:hover {
+  border-bottom: 1px solid transparent;
+}
+/*------------------------------------*\
+    #MODAL_FORM (форма)
+\*------------------------------------*/
+.modal-content {
+  padding: 30px;
+  position: relative;
+  text-align: left;
+}
+.modal-content .close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 28px;
+  cursor: pointer;
+}
+.modal-content .close:hover {
+  color: #284492;
+}
+.modal-content .page-head {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.modal-content .input {
+  height: 38px;
+  width: 100%;
+  padding: 0 10px;
+}
+.modal-content .text {
+  text-align: left;
+  padding-bottom: 5px;
+  padding-top: 15px;
+  font-size: 16px;
+}
+.modal-content .send {
+  text-align: center;
+  padding-top: 30px;
+}
+.modal-content button {
+  padding: 6px 70px;
+  font-size: 18px;
+  border: 1px solid #284492;
+  background-color: #284492;
+  color: #ffffff;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.modal-content button:hover {
+  background-color: #ffffff;
+  color: #284492;
+}

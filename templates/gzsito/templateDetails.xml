@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 3/0//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/3.0/template-install.dtd">
+<extension version="3.0"
+type="template"
+client="site">
+
+	<name>gzsito</name>
+	<version>1.0</version>
+	<creationDate>09/2016</creationDate>
+	<author>Bolonikov Sergei</author>
+	<authorEmail>sergeibolonikov@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>GNU/GPL</copyright>
+	<description>gzsito</description>
+	
+	<files>
+		<folder>css</folder>
+		<filename>index.php</filename>
+	</files>
+	
+	<positions>
+		<position>header-left</position>
+		<position>header-center-top</position>
+		<position>header-center-bottom</position>
+		<position>header-right</position>
+		<position>top-menu</position>
+		<position>before-content-without-container</position>
+		<position>before-content</position>
+		<position>content</position>
+		<position>after-content-style-none</position>
+		<position>after-content-all</position>
+		<position>after-content</position>
+		<position>after-content-without-container</position>
+		<position>left-block-content</position>
+		<position>material</position>
+		<position>footer</position>
+	</positions>
+	
+</extension>

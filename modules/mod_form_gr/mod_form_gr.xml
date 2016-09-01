@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+	<name>Модуль формы обратной связи</name>
+	<author>Sergei Bolonikov</author>
+	<creationDate>2016</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>sergeibolonikov@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Модуль формы обратной связи</description>
+	<files>
+		<folder>tmpl</folder>
+		<filename module="mod_form_gr">mod_form_gr.php</filename>
+		<filename>index.html</filename>		
+		<filename>mod_form_gr.xml</filename>
+        <filename>helper.php</filename>
+        <filename>mailer.php</filename>
+        <filename>script.js</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="head" type="text"
+					label="Название формы" />	
+				<field name="recipient" type="text"
+					label="Почта для отправки" />	
+				<field name="button_text" type="text"
+					label="Текст на кнопке отправки" />	
+				<field name="mail_head" type="text"
+					label="Тема письма" />
+				<field name="thanks" type="text"
+					label="Сообщение после отправки" />
+				<field name="captcha_on" type="checkbox"
+					label="Включить капчу google" description="Рекомендуется держать капчу включенной" />	
+				<field name="captcha_key" type="text"
+					label="Ключ капчи" />
+				<field name="captcha_secret_key" type="text"
+					label="Секретный ключ капчи" />		
+				<field name="file_on" type="checkbox"
+					label="Добавить загрузку файла" />	
+				<field name="file_text" type="text"
+					label="Текст на кнопке" />					
+				<field name="field"
+					type="Repeatable"
+					description="Контент"
+					label="Контент">
+					<fieldset name="field_block" repeat="true">			
+						<field name="type" type="list" label="Тип поля">
+						  <option value="text">Текстовая строка</option>
+						  <option value="textarea">Текстовое поле</option>
+						  <option value="separator">Резделитель</option>
+						</field>
+						<field name="title" type="text"
+							label="Название поля" />	
+						<field name="placeholder" type="text"
+							label="Плейсхолдер" />
+						<field name="required" type="checkbox"
+							label="Обязательное" />						
+					</fieldset>
+				</field>				
+			</fieldset>		
+			<fieldset name="modal" label="Модальное окно">
+				<field name="modal_on" type="checkbox"
+					label="Включить в модальном окне" />
+				<field name="modal_btn_text" type="text"
+					label="Текст на кнопке" />
+				<field name="modal_btn_class" type="text"
+					label="Класс ссылки" />
+			</fieldset>	
+			<fieldset name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+			</fieldset>	
+		</fields>
+	</config>
+</extension>

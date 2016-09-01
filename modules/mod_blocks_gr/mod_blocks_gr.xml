@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+	<name>Модуль блоков</name>
+	<author>Sergei Bolonikov</author>
+	<creationDate>2016</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>sergeibolonikov@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Модуль блоков</description>
+	<files>
+		<filename module="mod_blocks_gr">mod_blocks_gr.php</filename>
+		<filename>index.html</filename>		
+		<filename>mod_blocks_gr.xml</filename>
+        <filename>helper.php</filename>
+        <folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="blocks"
+					type="Repeatable"
+					description="Контент"
+					label="Контент">
+					<fieldset name="block" repeat="true">		
+                        <field name="img" type="media"
+                            label="Изображение" />                     
+                        <field name="block-text" type="text"
+                            label="Текст" />                              
+                        <field name="url" type="text"
+                            label="Ссылка" />
+						<field name="fio" type="text"
+							   label="ФИО (блок директор)" />
+						<field name="quote" type="textarea"
+							   label="Цитата (блок директор)" />
+						<field name="prof" type="textarea"
+							   label="Должность (блок директор)" />
+					</fieldset>
+				</field>                  
+			</fieldset>
+            
+            <fieldset name="advanced">
+				<field name="layout" type="modulelayout" 
+                    label="JFIELD_ALT_LAYOUT_LABEL" />     
+            </fieldset>
+		</fields>
+	</config>
+</extension>

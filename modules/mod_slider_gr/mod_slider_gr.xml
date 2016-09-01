@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+	<name>Модуль слайдера</name>
+	<author>Sergei Bolonikov</author>
+	<creationDate>2016</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>sergeibolonikov@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Модуль слайдера</description>
+	<files>
+		<folder>tmpl</folder>
+        <folder>slick</folder>
+		<filename module="mod_slider_gr">mod_slider_gr.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>		
+		<filename>mod_slider_gr.xml</filename>
+        <filename>script.js</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="slider"
+					type="Repeatable"
+					description="Контент"
+					label="Контент" filter="raw">
+					<fieldset name="slider_block" repeat="true">
+						<field name="img" type="media"
+							label="Слайд (используется в слайдере)" />
+						<field name="text" type="text"
+							label="Текст" />
+						<field name="url" type="text"
+							   label="Ссылка" />
+						<field name="main-text" type="textarea"
+							   label="Описание" />
+					</fieldset>
+				</field>					
+			</fieldset>
+            <fieldset name="advanced">
+				<field name="layout" type="modulelayout" 
+                    label="JFIELD_ALT_LAYOUT_LABEL" />     
+            </fieldset>
+		</fields>
+	</config>
+</extension>
