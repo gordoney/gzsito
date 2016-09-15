@@ -26,7 +26,7 @@ if ($item->anchor_rel)
 	$attributes['rel'] = $item->anchor_rel;
 }
 
-$linktype = $item->title;
+$linktype = '<span>'.$item->title.'</span>';
 
 if ($item->menu_image)
 {

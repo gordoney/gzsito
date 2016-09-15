@@ -14,8 +14,9 @@ defined('_JEXEC') or die;
 		<?php foreach ($slides as $key => $slide) { ?>
 			<div class="item clearfix">
 				<div class="img">
-					<img src="<?php echo $slide['img']; ?>" alt="">
-				</div>
+					<img src="<?php echo $slide['img']; ?>" alt="" data-toggle="modal" data-target="#cert<?php echo $key; ?>">
+				</div>             
+              
 				<div class="desc">
 					<div class="name"><?php echo $slide['text']; ?></div>
 					<div class="desc-name"><?php echo $slide['main-text']; ?></div>
@@ -25,7 +26,19 @@ defined('_JEXEC') or die;
 						<?php } ?>
 					</div>
 				</div>
-			</div>
+			</div>           
 		<?php } ?>
 	</div>
 </div>
+
+<?php foreach ($slides as $key => $slide) { ?>
+                <div class="modal fade" id="cert<?php echo $key; ?>" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <img src="<?php echo $slide['img']; ?>" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+<?php } ?>

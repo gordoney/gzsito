@@ -2,191 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="196ad9a0-1540-4434-9a7a-b7f18853aa7c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/body-div.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/body-readon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/bottom-hdiv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/dot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/footer-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/footer-l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/footer-r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/header-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/header-l.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/header-r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-10-blank.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-16-cpanel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-16-critical.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-16-extension.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-16-falang.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-16-help.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-16-info.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-16-ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-16-orphan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-16-plugin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-16-statistics.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-16-translation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-16-warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-48-checktranslations.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-48-extension.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-48-falang.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-48-help.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-48-info.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-48-manage-translations.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-48-manage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-48-orphan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-48-statistics.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/icon-48-translation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/jfspacer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/status_g.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/status_r.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/status_y.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/assets/current-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/assets/fail-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/assets/liveupdate-48.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/assets/nosupport-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/assets/ok-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/assets/update-32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/assets/warn-24.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/access.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/css/falang.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/css/help.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/css/hidesubmenu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/css/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/css/jfhelp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/images/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/js/cpanel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/js/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/js/jquery.cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/assets/js/mambojavascript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/classes/FalangManager.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/classes/JCacheStorageJFDB.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/classes/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/contentelements/banners.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/contentelements/categories.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/contentelements/contact_details.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/contentelements/content.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/contentelements/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/contentelements/menu.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/contentelements/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/contentelements/tags.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/contentelements/translationContact_details_categoryFilter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/contentelements/translationJfkeywordFilter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/controllers/cpanel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/controllers/elements.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/controllers/export.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/controllers/help.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/controllers/import.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/controllers/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/controllers/languages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/controllers/manage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/controllers/plugin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/controllers/statistics.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/controllers/translate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/documentation/CHANGELOG.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/documentation/COPYRIGHT.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/documentation/LICENSE.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/documentation/ReadMe.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/documentation/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/editors/arkeditor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/editors/ckeditor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/editors/codemirror.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/editors/fckeditor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/editors/htmlarea3_xtd.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/editors/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/editors/jce.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/editors/jckeditor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/editors/jeditor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/editors/spaw.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/editors/tinymce.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/editors/tmedit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/editors/wysiwygpro.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/editors/xinha.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/editors/xstandard.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/editors/yeeditor.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/falang.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/falang.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/help/en-GB/help.overview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/help/en-GB/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/help/en-GB/postinstall.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/help/en-GB/screen.cpanel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/help/en-GB/screen.elements.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/help/en-GB/screen.manage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/help/en-GB/screen.statistics.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/help/en-GB/screen.translate.edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/help/en-GB/screen.translate.orphans.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/help/en-GB/screen.translate.overview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/help/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/helpers/content.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/helpers/controllerHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/helpers/extensionHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/helpers/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/helpers/jfinstaller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/helpers/menus.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/legacy/controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/legacy/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/legacy/model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/legacy/view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/assets/liveupdate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/classes/abstractconfig.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/classes/controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/classes/download.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/classes/inihelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/classes/model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/classes/storage/component.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/classes/storage/file.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/classes/storage/storage.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/classes/tmpl/install.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/classes/tmpl/nagscreen.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/classes/tmpl/overview.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/classes/tmpl/startupdate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/classes/updatefetch.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/classes/view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/classes/xmlslurp.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/bg-BG/bg-BG.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/bs-BA/bs-BA.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/cs-CZ/cs-CZ.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/da-DK/da-DK.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/de-DE/de-DE.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/el-GR/el-GR.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/en-GB/en-GB.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/es-ES/es-ES.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/et-EE/et-EE.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/fa-IR/fa-IR.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/fi-FI/fi-FI.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/fr-FR/fr-FR.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/hu-HU/hu-HU.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/it-IT/it-IT.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/lt-LT/lt-LT.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/nb-NO/nb-NO.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/nl-NL/nl-NL.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/pl-PL/pl-PL.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/pt-BR/pt-BR.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/pt-PT/pt-PT.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/ru-RU/ru-RU.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/sk-SK/sk-SK.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/sl-SI/sl-SI.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/sv-SE/sv-SE.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/tr-TR/tr-TR.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/language/uk-UA/uk-UA.liveupdate.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/liveupdate/liveupdate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/models/ContentElement.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/models/ContentElementTable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/models/ContentElementTableField.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/models/ContentObject.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/administrator/components/com_falang/models/cpanel.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htaccess.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/site/cat1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/site/cat2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/site/cat3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/site/cat4.jpg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/site/certificate.jpg" afterPath="$PROJECT_DIR$/images/site/certificate.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/site/certificate1.jpg" afterPath="$PROJECT_DIR$/images/site/certificate1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/site/logo.png" afterPath="$PROJECT_DIR$/images/site/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/fonts/icomoon.eot" afterPath="$PROJECT_DIR$/templates/gzsito/fonts/icomoon.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/fonts/icomoon.ttf" afterPath="$PROJECT_DIR$/templates/gzsito/fonts/icomoon.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/fonts/icomoon.woff" afterPath="$PROJECT_DIR$/templates/gzsito/fonts/icomoon.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configuration.php" afterPath="$PROJECT_DIR$/configuration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mod_articles_news/tmpl/_item.php" afterPath="$PROJECT_DIR$/modules/mod_articles_news/tmpl/_item.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mod_articles_news/tmpl/default.php" afterPath="$PROJECT_DIR$/modules/mod_articles_news/tmpl/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mod_slider_gr/tmpl/cert.php" afterPath="$PROJECT_DIR$/modules/mod_slider_gr/tmpl/cert.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sxd/ses.php" afterPath="$PROJECT_DIR$/sxd/ses.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/css/style.css" afterPath="$PROJECT_DIR$/templates/gzsito/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/css/style.less" afterPath="$PROJECT_DIR$/templates/gzsito/css/style.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/fonts/icomoon.svg" afterPath="$PROJECT_DIR$/templates/gzsito/fonts/icomoon.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/html/mod_menu/top_component.php" afterPath="$PROJECT_DIR$/templates/gzsito/html/mod_menu/top_component.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/html/mod_menu/top_heading.php" afterPath="$PROJECT_DIR$/templates/gzsito/html/mod_menu/top_heading.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/html/mod_menu/top_separator.php" afterPath="$PROJECT_DIR$/templates/gzsito/html/mod_menu/top_separator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/html/mod_menu/top_url.php" afterPath="$PROJECT_DIR$/templates/gzsito/html/mod_menu/top_url.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/index.php" afterPath="$PROJECT_DIR$/templates/gzsito/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/js/custom.js" afterPath="$PROJECT_DIR$/templates/gzsito/js/custom.js" />
     </list>
     <ignored path="gzsito.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -208,26 +46,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/gzsito/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="27" column="89" selection-start-line="27" selection-start-column="89" selection-end-line="27" selection-end-column="89" />
+            <state relative-caret-position="-272">
+              <caret line="27" column="86" selection-start-line="27" selection-start-column="86" selection-end-line="27" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/gzsito/css/style.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="1284" column="21" selection-start-line="1284" selection-start-column="21" selection-end-line="1284" selection-end-column="21" />
               <folding>
-                <element signature="n#style#0;n#jdoc:include#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#jdoc:include#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#3178#3417#2" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/gzsito/css/style.less">
+      <file leaf-file-name="category_default.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/com_jshopping/templates/gzsito/category/category_default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="949" column="21" selection-start-line="949" selection-start-column="21" selection-end-line="949" selection-end-column="21" />
+            <state relative-caret-position="300">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
-                <element signature="e#3044#3283#2" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -236,7 +83,7 @@
       <file leaf-file-name="templateDetails.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/gzsito/templateDetails.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
+            <state relative-caret-position="510">
               <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
               <folding />
             </state>
@@ -267,8 +114,10 @@
         <option value="$PROJECT_DIR$/modules/mod_slider_gr/tmpl/cert.php" />
         <option value="$PROJECT_DIR$/templates/gzsito/html/mod_jshopping_categories/default.php" />
         <option value="$PROJECT_DIR$/templates/gzsito/templateDetails.xml" />
-        <option value="$PROJECT_DIR$/templates/gzsito/css/style.less" />
         <option value="$PROJECT_DIR$/templates/gzsito/index.php" />
+        <option value="$PROJECT_DIR$/modules/mod_blocks_gr/tmpl/catalog.php" />
+        <option value="$PROJECT_DIR$/components/com_jshopping/templates/gzsito/category/category_default.php" />
+        <option value="$PROJECT_DIR$/templates/gzsito/css/style.less" />
       </list>
     </option>
   </component>
@@ -380,54 +229,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gzsito" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gzsito" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gzsito" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mod_articles_news" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gzsito" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gzsito" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gzsito" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -443,6 +244,178 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzsito" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzsito" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mod_blocks_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzsito" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzsito" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mod_blocks_gr" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tmpl" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzsito" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzsito" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzsito" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzsito" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_jshopping" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzsito" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzsito" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_jshopping" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzsito" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzsito" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzsito" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_jshopping" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzsito" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="category" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzsito" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzsito" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_jshopping" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzsito" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gzsito" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com_jshopping" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,16 +447,18 @@
       <workItem from="1472557714667" duration="3474000" />
       <workItem from="1472619580192" duration="15929000" />
       <workItem from="1472651797354" duration="3665000" />
-      <workItem from="1472705420241" duration="18153000" />
+      <workItem from="1472705420241" duration="18159000" />
+      <workItem from="1473926836447" duration="4029000" />
+      <workItem from="1473937892384" duration="8400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43638000" />
+    <option name="totallyTimeSpent" value="56073000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2035139" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -520,14 +495,63 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/gzsito/css/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#3178#3417#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_blocks_gr/tmpl/catalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gzsito/templateDetails.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gzsito/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gzsito/css/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16133">
+          <caret line="949" column="21" selection-start-line="949" selection-start-column="21" selection-end-line="949" selection-end-column="21" />
+          <folding>
+            <element signature="e#3178#3417#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gzsito/templateDetails.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/gzsito/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="52" column="63" selection-start-line="52" selection-start-column="63" selection-end-line="52" selection-end-column="63" />
-          <folding>
-            <element signature="n#style#0;n#jdoc:include#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#jdoc:include#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -536,7 +560,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3044#3283#2" expanded="true" />
+            <element signature="e#3178#3417#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -545,7 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,10 +584,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="52" column="63" selection-start-line="52" selection-start-column="63" selection-end-line="52" selection-end-column="63" />
-          <folding>
-            <element signature="n#style#0;n#jdoc:include#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#jdoc:include#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -573,7 +593,7 @@
         <state relative-caret-position="8891">
           <caret line="523" column="27" selection-start-line="523" selection-start-column="27" selection-end-line="523" selection-end-column="27" />
           <folding>
-            <element signature="e#3044#3283#2" expanded="true" />
+            <element signature="e#3178#3417#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -582,7 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -598,10 +617,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#jdoc:include#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#jdoc:include#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -609,10 +625,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="25" column="65" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
-          <folding>
-            <element signature="n#style#0;n#jdoc:include#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#jdoc:include#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -621,7 +634,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3044#3283#2" expanded="true" />
+            <element signature="e#3178#3417#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -681,7 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,7 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -697,7 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,7 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-45">
           <caret line="38" column="145" selection-start-line="38" selection-start-column="145" selection-end-line="38" selection-end-column="145" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -713,7 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="103" column="6" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
           <caret line="65" column="69" selection-start-line="65" selection-start-column="69" selection-end-line="65" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -729,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-181">
           <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="17" column="84" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,7 +765,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,7 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,7 +779,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -785,7 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-388">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,7 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,7 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="40" column="4" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,7 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-324">
           <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,35 +814,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/mod_blocks_gr/tmpl/catalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/gzsito/templateDetails.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
+        <state relative-caret-position="510">
           <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gzsito/css/style.less">
+    <entry file="file://$PROJECT_DIR$/components/com_jshopping/lib/factory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="949" column="21" selection-start-line="949" selection-start-column="21" selection-end-line="949" selection-end-column="21" />
+        <state relative-caret-position="-10002">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="46" />
           <folding>
-            <element signature="e#3044#3283#2" expanded="true" />
+            <marker date="1472719662000" expanded="true" signature="15914:15976" placeholder="select id, s... #__jshopping_vendors" />
+            <marker date="1472719662000" expanded="true" signature="17080:17128" placeholder="select id, d... #__jshopping_delivery_times" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_jshopping/lib/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="46" />
+          <folding>
+            <marker date="1472719664000" expanded="true" signature="9101:9137" placeholder="select * fro... #__jshopping_languages" />
+            <marker date="1472719664000" expanded="true" signature="9795:9933" placeholder="insert into #__jshopping_languages... " />
+            <marker date="1472719664000" expanded="true" signature="41559:41617" placeholder="select id,ti... #__viewlevels" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/gzsito/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="27" column="89" selection-start-line="27" selection-start-column="89" selection-end-line="27" selection-end-column="89" />
+        <state relative-caret-position="-272">
+          <caret line="27" column="86" selection-start-line="27" selection-start-column="86" selection-end-line="27" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_jshopping/templates/gzsito/category/category_default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding>
-            <element signature="n#style#0;n#jdoc:include#0;n#div#1;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#jdoc:include#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gzsito/css/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="1284" column="21" selection-start-line="1284" selection-start-column="21" selection-end-line="1284" selection-end-column="21" />
+          <folding>
+            <element signature="e#3178#3417#2" expanded="true" />
           </folding>
         </state>
       </provider>
