@@ -1,6 +1,6 @@
 <?php
 $SES = array (
-  '6f3f0924dfc42170f08afae75af29441' => 
+  '4e47ea627dafa2884785a1870263a3ae' => 
   array (
     'cfg' => 
     array (
@@ -24,7 +24,7 @@ $SES = array (
       'confirm' => '6',
       'exitURL' => './',
     ),
-    'time' => 1473925753,
+    'time' => 1474025442,
     'lng' => 'ru',
   ),
 );

@@ -13,7 +13,7 @@ include(dirname(__FILE__)."/load.js.php");
 <div class="jshop productfull" id="comjshop">
     <form name="product" method="post" action="<?php print $this->action?>" enctype="multipart/form-data" autocomplete="off">
     
-        <h1><?php print $this->product->name?><?php if ($this->config->show_product_code){?> <span class="jshop_code_prod">(<?php print _JSHOP_EAN?>: <span id="product_code"><?php print $this->product->getEan();?></span>)</span><?php }?></h1>
+        <h1 class="page-name"><?php print $this->product->name?><?php if ($this->config->show_product_code){?> <span class="jshop_code_prod">(<?php print _JSHOP_EAN?>: <span id="product_code"><?php print $this->product->getEan();?></span>)</span><?php }?></h1>
         
         <?php print $this->_tmp_product_html_start;?>
         
@@ -22,7 +22,7 @@ include(dirname(__FILE__)."/load.js.php");
         <?php include(dirname(__FILE__)."/ratingandhits.php");?>
 
         <div class="row-fluid jshop">
-            <div class="span4 image_middle">
+            <!--<div class="span4 image_middle">
             
                 <?php print $this->_tmp_product_html_before_image;?>
                 
@@ -100,7 +100,7 @@ include(dirname(__FILE__)."/load.js.php");
                 
                 <?php print $this->_tmp_product_html_after_video;?>                
             </div>
-        </div>
+        </div>-->
 
         <div class="jshop_prod_description">
             <?php print $this->product->description; ?>

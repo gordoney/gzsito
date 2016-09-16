@@ -9,7 +9,6 @@ defined('_JEXEC') or die;
 
 /* объявляем кастомные скрипты */
 $document = JFactory::getDocument();
-$document->addScript('http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js');
 $document->addScript($this->baseurl.'/templates/'.$this->template.'/js/bootstrap.min.js');
 $document->addScript($this->baseurl.'/templates/'.$this->template.'/js/custom.js');
 
@@ -23,6 +22,7 @@ $document->addStyleSheet($this->baseurl.'/templates/'.$this->template.'/css/boot
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>" >
 <head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<jdoc:include type="head" />
 	<link rel="stylesheet/less" type="text/css" href="/templates/gzsito/css/style.less" />
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.6.1/less.min.js"></script>

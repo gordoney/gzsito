@@ -2,29 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="196ad9a0-1540-4434-9a7a-b7f18853aa7c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/site/cat1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/site/cat2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/site/cat3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/site/cat4.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/site/certificate.jpg" afterPath="$PROJECT_DIR$/images/site/certificate.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/site/certificate1.jpg" afterPath="$PROJECT_DIR$/images/site/certificate1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/site/logo.png" afterPath="$PROJECT_DIR$/images/site/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/fonts/icomoon.eot" afterPath="$PROJECT_DIR$/templates/gzsito/fonts/icomoon.eot" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/fonts/icomoon.ttf" afterPath="$PROJECT_DIR$/templates/gzsito/fonts/icomoon.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/fonts/icomoon.woff" afterPath="$PROJECT_DIR$/templates/gzsito/fonts/icomoon.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configuration.php" afterPath="$PROJECT_DIR$/configuration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/mod_slider_gr/tmpl/cert.php" afterPath="$PROJECT_DIR$/modules/mod_slider_gr/tmpl/cert.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sxd/ses.php" afterPath="$PROJECT_DIR$/sxd/ses.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/css/style.css" afterPath="$PROJECT_DIR$/templates/gzsito/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jshopping/templates/gzsito/category/category_default.php" afterPath="$PROJECT_DIR$/components/com_jshopping/templates/gzsito/category/category_default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jshopping/templates/gzsito/category/maincategory.php" afterPath="$PROJECT_DIR$/components/com_jshopping/templates/gzsito/category/maincategory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/components/com_jshopping/templates/gzsito/product/product_default.php" afterPath="$PROJECT_DIR$/components/com_jshopping/templates/gzsito/product/product_default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/language/overrides/ru-RU.override.ini" afterPath="$PROJECT_DIR$/language/overrides/ru-RU.override.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/templates/gzsito/css/bootstrap.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/css/style.less" afterPath="$PROJECT_DIR$/templates/gzsito/css/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/fonts/icomoon.svg" afterPath="$PROJECT_DIR$/templates/gzsito/fonts/icomoon.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/html/mod_menu/top_component.php" afterPath="$PROJECT_DIR$/templates/gzsito/html/mod_menu/top_component.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/html/mod_menu/top_heading.php" afterPath="$PROJECT_DIR$/templates/gzsito/html/mod_menu/top_heading.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/html/mod_menu/top_separator.php" afterPath="$PROJECT_DIR$/templates/gzsito/html/mod_menu/top_separator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/html/mod_menu/top_url.php" afterPath="$PROJECT_DIR$/templates/gzsito/html/mod_menu/top_url.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/html/mod_breadcrumbs/default.php" afterPath="$PROJECT_DIR$/templates/gzsito/html/mod_breadcrumbs/default.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/index.php" afterPath="$PROJECT_DIR$/templates/gzsito/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/templates/gzsito/js/bootstrap.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/js/custom.js" afterPath="$PROJECT_DIR$/templates/gzsito/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/gzsito/templateDetails.xml" afterPath="$PROJECT_DIR$/templates/gzsito/templateDetails.xml" />
     </list>
     <ignored path="gzsito.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,35 +38,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/gzsito/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-272">
-              <caret line="27" column="86" selection-start-line="27" selection-start-column="86" selection-end-line="27" selection-end-column="86" />
+            <state relative-caret-position="63">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/gzsito/css/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="1284" column="21" selection-start-line="1284" selection-start-column="21" selection-end-line="1284" selection-end-column="21" />
+            <state relative-caret-position="325">
+              <caret line="1477" column="9" selection-start-line="1477" selection-start-column="9" selection-end-line="1477" selection-end-column="9" />
               <folding>
-                <element signature="e#3178#3417#2" expanded="true" />
+                <element signature="e#3095#3334#2" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category_default.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/com_jshopping/templates/gzsito/category/category_default.php">
+      <file leaf-file-name="product_default.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/com_jshopping/templates/gzsito/product/product_default.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="204">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="29" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <marker date="1474023562239" expanded="false" signature="1925:1937" placeholder="..." />
+                <marker date="1474023562239" expanded="false" signature="2109:2121" placeholder="..." />
+                <marker date="1474023562239" expanded="false" signature="2989:3001" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -83,8 +77,8 @@
       <file leaf-file-name="templateDetails.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/gzsito/templateDetails.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+            <state relative-caret-position="365">
+              <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -100,7 +94,6 @@
       <list>
         <option value="$PROJECT_DIR$/templates/gzsito/html/mod_falang/default_list.php" />
         <option value="$PROJECT_DIR$/templates/gzsito/html/mod_search/default.php" />
-        <option value="$PROJECT_DIR$/templates/gzsito/js/custom.js" />
         <option value="$PROJECT_DIR$/templates/gzsito/html/mod_falang/default_dropdown.php" />
         <option value="$PROJECT_DIR$/templates/gzsito/html/mod_menu/top.php" />
         <option value="$PROJECT_DIR$/modules/mod_slider_gr/tmpl/default.php" />
@@ -113,11 +106,15 @@
         <option value="$PROJECT_DIR$/modules/mod_slider_gr/mod_slider_gr.xml" />
         <option value="$PROJECT_DIR$/modules/mod_slider_gr/tmpl/cert.php" />
         <option value="$PROJECT_DIR$/templates/gzsito/html/mod_jshopping_categories/default.php" />
-        <option value="$PROJECT_DIR$/templates/gzsito/templateDetails.xml" />
-        <option value="$PROJECT_DIR$/templates/gzsito/index.php" />
         <option value="$PROJECT_DIR$/modules/mod_blocks_gr/tmpl/catalog.php" />
+        <option value="$PROJECT_DIR$/templates/gzsito/html/mod_breadcrumbs/default.php" />
+        <option value="$PROJECT_DIR$/components/com_jshopping/templates/gzsito/category/maincategory.php" />
+        <option value="$PROJECT_DIR$/templates/gzsito/templateDetails.xml" />
+        <option value="$PROJECT_DIR$/templates/gzsito/js/custom.js" />
         <option value="$PROJECT_DIR$/components/com_jshopping/templates/gzsito/category/category_default.php" />
+        <option value="$PROJECT_DIR$/components/com_jshopping/templates/gzsito/product/product_default.php" />
         <option value="$PROJECT_DIR$/templates/gzsito/css/style.less" />
+        <option value="$PROJECT_DIR$/templates/gzsito/index.php" />
       </list>
     </option>
   </component>
@@ -161,6 +158,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -229,7 +228,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -243,47 +242,15 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gzsito" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="gzsito" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mod_blocks_gr" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gzsito" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gzsito" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mod_blocks_gr" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tmpl" />
+              <option name="myItemId" value="html" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -371,7 +338,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="category" />
+              <option name="myItemId" value="product" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -394,35 +361,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gzsito" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gzsito" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com_jshopping" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,17 +393,18 @@
       <workItem from="1472705420241" duration="18159000" />
       <workItem from="1473926836447" duration="4029000" />
       <workItem from="1473937892384" duration="8400000" />
+      <workItem from="1474003663552" duration="16801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56073000" />
+    <option name="totallyTimeSpent" value="72874000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2035139" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20424597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -495,58 +439,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/gzsito/css/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#3178#3417#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/mod_blocks_gr/tmpl/catalog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gzsito/templateDetails.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gzsito/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gzsito/css/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16133">
-          <caret line="949" column="21" selection-start-line="949" selection-start-column="21" selection-end-line="949" selection-end-column="21" />
-          <folding>
-            <element signature="e#3178#3417#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gzsito/templateDetails.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/gzsito/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -560,7 +452,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3178#3417#2" expanded="true" />
+            <element signature="e#3095#3334#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -593,7 +485,7 @@
         <state relative-caret-position="8891">
           <caret line="523" column="27" selection-start-line="523" selection-start-column="27" selection-end-line="523" selection-end-column="27" />
           <folding>
-            <element signature="e#3178#3417#2" expanded="true" />
+            <element signature="e#3095#3334#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -634,7 +526,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3178#3417#2" expanded="true" />
+            <element signature="e#3095#3334#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -666,13 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="189" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gzsito/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -821,15 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gzsito/templateDetails.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,10 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-10002">
           <caret line="5" column="46" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="46" />
-          <folding>
-            <marker date="1472719662000" expanded="true" signature="15914:15976" placeholder="select id, s... #__jshopping_vendors" />
-            <marker date="1472719662000" expanded="true" signature="17080:17128" placeholder="select id, d... #__jshopping_delivery_times" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,31 +728,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gzsito/index.php">
+    <entry file="file://$PROJECT_DIR$/components/com_jshopping/templates/gzsito/category/maincategory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="27" column="86" selection-start-line="27" selection-start-column="86" selection-end-line="27" selection-end-column="86" />
+        <state relative-caret-position="207">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gzsito/html/mod_breadcrumbs/default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="62" column="111" selection-start-line="62" selection-start-column="111" selection-end-line="62" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_jshopping/templates/gzsito/category/products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_jshopping/templates/gzsito/list_products/list_products.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gzsito/templateDetails.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/components/com_jshopping/templates/gzsito/category/category_default.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="598">
+          <caret line="107" column="35" selection-start-line="107" selection-start-column="35" selection-end-line="107" selection-end-column="35" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_jshopping/templates/gzsito/list_products/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/com_jshopping/templates/gzsito/product/product_default.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <marker date="1474023562239" expanded="false" signature="1925:1937" placeholder="..." />
+            <marker date="1474023562239" expanded="false" signature="2109:2121" placeholder="..." />
+            <marker date="1474023562239" expanded="false" signature="2989:3001" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gzsito/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/gzsito/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="1284" column="21" selection-start-line="1284" selection-start-column="21" selection-end-line="1284" selection-end-column="21" />
+        <state relative-caret-position="325">
+          <caret line="1477" column="9" selection-start-line="1477" selection-start-column="9" selection-end-line="1477" selection-end-column="9" />
           <folding>
-            <element signature="e#3178#3417#2" expanded="true" />
+            <element signature="e#3095#3334#2" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/gzsito/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>

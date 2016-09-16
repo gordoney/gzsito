@@ -9,7 +9,6 @@
 
 defined('_JEXEC') or die;
 
-JHtml::_('bootstrap.tooltip');
 ?>
 
 <ul itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb<?php echo $moduleclass_sfx; ?>">
@@ -46,7 +45,7 @@ JHtml::_('bootstrap.tooltip');
 	foreach ($list as $key => $item) :
 		if ($key != $last_item_key) :
 			// Render all but last item - along with separator ?>
-			<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+			<li class="crumb" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
 				<?php if (!empty($item->link)) : ?>
 					<a itemprop="item" href="<?php echo $item->link; ?>" class="pathway"><span itemprop="name"><?php echo $item->name; ?></span></a>
 				<?php else : ?>
@@ -56,13 +55,12 @@ JHtml::_('bootstrap.tooltip');
 				<?php endif; ?>
 
 				<?php if (($key != $penult_item_key) || $show_last) : ?>
-					<i class="icon-right-arrow"></i>
 				<?php endif; ?>
 				<meta itemprop="position" content="<?php echo $key + 1; ?>">
 			</li>
 		<?php elseif ($show_last) :
 			// Render last item if reqd. ?>
-			<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="active">
+			<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="active crumb">
 				<span itemprop="name">
 					<?php echo $item->name; ?>
 				</span>

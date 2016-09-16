@@ -7,7 +7,6 @@
   url('../fonts/Lato-Regular.ttf') format('truetype');
   font-style: normal;
   font-weight: normal;
-  text-rendering: optimizeLegibility;
 }
 
 @font-face {
@@ -19,7 +18,6 @@
   url('../fonts/Lato-Bold.ttf') format('truetype');
   font-style: normal;
   font-weight: normal;
-  text-rendering: optimizeLegibility;
 }
 
 @font-face {
@@ -49,16 +47,15 @@
 }
 
 .icon-right-arrow:before {
-    content: "\e902";
+  content: "\e902";
 }
-
 .icon-phone-call:before {
-    content: "\e901";
+  content: "\e901";
+}
+.icon-musica-searcher:before {
+  content: "\e900";
 }
 
-.icon-musica-searcher:before {
-    content: "\e900";
-}
 
 
 @-webkit-keyframes shake {
@@ -248,7 +245,7 @@ h1 {
 
     .search-query {
         width: 72%;
-        height: 28px;
+        height: 30px;
         border: 1px solid darken(@color4, 20%);
         padding: 0 15px;
         border-radius: 2px;
@@ -343,6 +340,11 @@ h1 {
 .mod-menu-top {
     padding-top: 8px;
 
+    .nav>li>a {
+        display: inline-block;
+        padding: 20px 16px;
+    }
+
     li {
         display: inline-block;
         
@@ -357,8 +359,6 @@ h1 {
         font-family: @font1;
         color: @font-color1;
         font-weight: bold;
-        display: inline-block;
-        padding: 20px 16px;
 
         &:hover span{
             border-bottom: 1px solid transparent;
@@ -400,6 +400,10 @@ h1 {
     }
 }
 
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: transparent;
+}
+
 
 
 
@@ -409,7 +413,7 @@ h1 {
     #MOD_MENU_TOP (модуль верхнего меню)
 \*------------------------------------*/
 .mod_form_gr {
-    .modal_form_btn {
+    .modal_form_btn.call {
         color: @font-color4;
         padding: 9px 20px 9px 15px;
         background-color: darken(@font-color1, 3%);
@@ -421,7 +425,7 @@ h1 {
         font-size: 14px;
         display: inline-block;
         font-family: @font1;
-        margin-top: 23px;
+        margin-top: 13px;
         margin-right: 30px;
 
         &:hover {
@@ -860,7 +864,7 @@ h1 {
         padding-left: 25px;
     }
 
-    .jshop_menu_level_1 {
+    .jshop_menu_level_1, .jshop_menu_level_1_a {
         display: none;
     }
 
@@ -1157,10 +1161,17 @@ h1 {
     #BREADCRUMBS (хлебные крошки)
 \*------------------------------------*/
 .breadcrumb {
-    padding-bottom: 30px;
+    padding: 0 0 30px 0;
+    background-color: transparent;
+
+    &>li+li:before {
+        content: '';
+        padding: 0;
+    }
 
     li {
         display: inline-block;
+        position: relative;
     }
 
     a {
@@ -1172,8 +1183,19 @@ h1 {
         }
     }
 
-    i {
-        margin: 0 5px;
+    .crumb + .crumb {
+        margin-left: 30px;
+    }
+
+    .crumb + .crumb:after {
+        position: absolute;
+        content: url(../images/arrow-crumb.png);
+        left: -22px;
+        top: 14px;
+    }
+
+    span {
+        display: inline-block;
     }
 }
 
@@ -1272,6 +1294,191 @@ h1 {
         color: lighten(@color3, 40%);
     }
 }
+
+
+
+
+
+
+/*------------------------------------*\
+    #JSHOP_CATEGORY_FULL (категория детально)
+\*------------------------------------*/
+.category-full {
+    .left-block {
+        width: 40%;
+        float: left;
+
+        .img {
+            height: 300px;
+            background-repeat: no-repeat;
+            background-size: auto 90%;
+            background-position: center center;
+            border: 1px solid lighten(@color1, 55%);
+            margin-bottom: 20px;
+        }
+    }
+
+    .right-block {
+        width: 57%;
+        margin-left: 3%;
+        float: left;
+    }
+
+    .form-block {
+        margin: 0 5px 20px 5px;
+        padding: 35px;
+        .gradient(#f4f7ff, #ebf0ff, #ebf0ff, top);
+        border-radius: 2px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .buy-text {
+        font-weight: 700;
+        font-size: 24px;
+        padding-bottom: 30px;
+
+        span {
+            text-transform: lowercase;
+        }
+    }
+
+    .prev-text {
+        line-height: 1.5;
+        font-size: 16px;
+    }
+
+    .modal_form_btn {
+        background-color: @color1;
+        color: @font-color4;
+        font-family: @font1;
+        text-align: center;
+        padding: 15px 0;
+        font-size: 20px;
+        border-radius: 3px;
+        margin-top: 30px;
+        cursor: pointer;
+        .transition(0.2s);
+        position: relative;
+        z-index: 1;
+
+        &:hover {
+            background-color: @color2;
+        }
+    }
+
+    .form-mod {
+        position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 70%;
+            height: 8px;
+            box-shadow: none;
+            bottom: 5px;
+            left: 15%;
+            box-shadow: 0 6px 30px 5px @color6;
+            .transition(0.2s);
+        }
+    }
+
+    .form-block-wrapper {
+        position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 80%;
+            height: 8px;
+            box-shadow: none;
+            bottom: 5px;
+            left: 10%;
+            box-shadow: 0 6px 45px 1px @color3;
+            .transition(0.2s);
+        }
+    }
+
+    .right-block {
+        .name {
+            font-size: 30px;
+            font-weight: 700;
+            text-align: left;
+            padding-top: 0;
+            padding-bottom: 30px;
+            color: @font-color3;
+            text-transform: uppercase;
+        }
+    }
+
+    .products {
+        border-top: 1px solid lighten(@color1, 55%);
+        border-bottom: 1px solid lighten(@color1, 55%);
+        padding: 20px 0 25px 0;
+        margin-bottom: 40px;
+    }
+
+    .product {
+        display: inline-block;
+        width: 49%;
+        vertical-align: top;
+        padding: 10px 0;
+
+        a {
+            line-height: 1.3;
+            border-bottom: 1px solid @color5;
+            color: @font-color5;
+            display: inline;
+            position: relative;
+            left: 20px;
+
+            &:hover {
+                border-bottom: 1px solid transparent;
+            }
+
+            &:hover:before {
+                left: -15px;
+            }
+
+            &:before {
+                content: url(../images/arrow-gray.png);
+                position: absolute;
+                left: -20px;
+                .transition(0.2s);
+            }
+        }
+    }
+
+    .description {
+        line-height: 1.5;
+        color: lighten(@font-color3, 35%);
+
+        p {
+            padding-bottom: 15px;
+        }
+    }
+}
+
+
+
+
+
+
+/*------------------------------------*\
+    #JSHOP_PRODUCT (Товар)
+\*------------------------------------*/
+.productfull {
+    .jshop_prod_description {
+        padding-bottom: 40px;
+        line-height: 1.5;
+        color: lighten(@font-color3, 35%);
+
+        p {
+            padding-bottom: 15px;
+        }
+    }
+}
+
 
 
 

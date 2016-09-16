@@ -1,8 +1,8 @@
 jQuery(document).ready(function() {
-     /* починка модалки bootstrap внутри блока с позиционированием */
+     /* пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ bootstrap пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
 	function modal_overlay_fix() {
         var checkeventcount = 1,prevTarget;
-        $('.modal').on('show.bs.modal', function (e) {
+        jQuery('.modal').on('show.bs.modal', function (e) {
             if(typeof prevTarget == 'undefined' || (checkeventcount==1 && e.target!=prevTarget))
             {  
               prevTarget = e.target;
@@ -17,5 +17,5 @@ jQuery(document).ready(function() {
          });
 	}   
     
-    //modal_overlay_fix();
+    modal_overlay_fix();
 });

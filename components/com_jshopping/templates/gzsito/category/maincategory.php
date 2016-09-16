@@ -1,6 +1,6 @@
 <?php 
 /**
-* @version      4.10.5 13.08.2013
+* @version      4.11.0 17.09.2015
 * @author       MAXXmarketing GmbH
 * @package      Jshopping
 * @copyright    Copyright (C) 2010 webdesigner-profi.de. All rights reserved.
@@ -8,58 +8,60 @@
 */
 defined('_JEXEC') or die('Restricted access');
 
-print $this->_tmp_maincategory_html_start;
+$menu = JSite::getMenu();
+$active = $menu->getActive();
+
+print $this->_tmp_category_html_start;
 ?>
-<?php if ($this->params->get('show_page_heading') && $this->params->get('page_heading')){?>
-<div class="shophead<?php print $this->params->get('pageclass_sfx');?>">
-    <h1><?php print $this->params->get('page_heading')?></h1>
-</div>
-<?php }?>
+<div class="jshop jshop_list_category" id="comjshop">
+    <h1 class="page-name"><?php print $active->title; ?></h1>
+    <?php if ($this->category->description) { ?>
+        <div class="category_description">
+            <?php print $this->category->description?>
+        </div>
+    <?php } ?>
 
-<div class="jshop" id="comjshop">
-    <div class="category_description">
-        <?php print $this->category->description?>
-    </div>
-
-    <div class="jshop_list_category">
+    <div>
     <?php if (count($this->categories)) : ?>
-    
-        <?php foreach ($this->categories as $k => $category) : ?>
-            <?php if ($k % $this->count_category_to_row == 0) : ?>
-                <div class = "row-fluid">
-            <?php endif; ?>
-        
-            <div class = "sblock<?php echo $this->count_category_to_row;?> jshop_categ category">
-                <div class="sblock2 image">
-                    <a href = "<?php print $category->category_link;?>">
-                        <img class = "jshop_img" src = "<?php print $this->image_category_path;?>/<?php if ($category->category_image) print $category->category_image; else print $this->noimage;?>" alt="<?php print htmlspecialchars($category->name);?>" title="<?php print htmlspecialchars($category->name);?>" />
+        <div class = "jshop list_category">
+            <?php foreach($this->categories as $k=>$category) : ?>
+            
+                <?php if ($k % $this->count_category_to_row == 0) : ?>
+                    <div class = "categories clearfix">
+                <?php endif; ?>
+                
+                <div class = "sblock<?php echo $this->count_category_to_row;?> jshop_categ">
+                    <a href = "<?php print $category->category_link?>">
+                        <div class="image-wrapper">
+                            <div class="image-overflow">
+                                <div class = "image" style="background-image: url(<?php print $this->image_category_path;?>/<?php if ($category->category_image) print $category->category_image; else print $this->noimage;?>);"></div>
+                            </div>
+                        </div>
+                        <div class="name">
+                            <span><?php print $category->name?></span>
+                        </div>
                     </a>
                 </div>
-                <div class="sblock2">
-                    <div class="category_name">
-                        <a class = "product_link" href = "<?php print $category->category_link?>">
-                            <?php print $category->name?>
-                        </a>
+                
+                <?php if ($k % $this->count_category_to_row == $this->count_category_to_row - 1) : ?>
+                    <div class = "clearfix"></div>
                     </div>
-                    <p class = "category_short_description">
-                        <?php print $category->short_description?>
-                    </p>
-                </div>
-            </div>
+                <?php endif; ?>
+                
+            <?php endforeach; ?>
             
-            <?php if ($k % $this->count_category_to_row == $this->count_category_to_row - 1) : ?>
+            <?php if ($k % $this->count_category_to_row != $this->count_category_to_row - 1) : ?>
                 <div class = "clearfix"></div>
                 </div>
             <?php endif; ?>
-        <?php endforeach;?>
-        
-        <?php if ($k % $this->count_category_to_row != $this->count_category_to_row - 1) : ?>
-            <div class = "clearfix"></div>
-            </div>
-        <?php endif; ?>
-        
+            
+        </div>
     <?php endif; ?>
     </div>
-    
-    <?php print $this->_tmp_maincategory_html_end;?>
+	
+	<?php print $this->_tmp_category_html_before_products;?>
+        
+    <?php include(dirname(__FILE__)."/products.php");?>
+	
+	<?php print $this->_tmp_category_html_end;?>
 </div>
