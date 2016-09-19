@@ -32,6 +32,7 @@ client="site">
 		<position>after-content</position>
 		<position>after-content-without-container</position>
 		<position>left-block-content</position>
+		<position>right-block-content</position>
 		<position>material</position>
 		<position>footer</position>
 		<position>jshop-category-form</position>

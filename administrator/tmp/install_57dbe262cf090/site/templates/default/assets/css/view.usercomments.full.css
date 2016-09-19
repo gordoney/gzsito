@@ -1,0 +1,240 @@
+select#limit {
+    width: auto !important;
+    height: auto !important;
+}
+/* DOCUMENT COMMENTS */
+.jucm-comments {
+    margin-top : 20px;
+}
+
+.jucm-comments h3.leave-comment {
+    font-size   : 14px !important;
+    font-weight : 700 !important;
+    color       : #222 !important;
+}
+
+/* STYLESHEET COMMENT FORM */
+.jucm-comments .comment-form-container {
+    margin-top : 10px;
+    clear      : both;
+}
+
+.jucm-comments p.note-required {
+    color : #a0a0a0;
+}
+
+.jucm-comments p.note-required span {
+    color : red;
+}
+
+.jucm-comments .comment-form .comment-user-info {
+    float : left;
+    width : 60%;
+}
+
+.jucm-comments .comment-form .jucm-rating {
+    float : left;
+    width : 35%;
+}
+
+.jucm-comments .jucm-rating .rating-item {
+    width         : 100%;
+    clear         : both;
+    display       : block;
+    padding       : 5px 0px 5px 0px;
+    margin-bottom    : 5px;
+    overflow      : hidden;
+    border-bottom : 1px dotted #ccc;
+}
+
+.jucm-comments .jucm-rating .rating-item .rating-title .required {
+    color       : red;
+    margin-left : 5px;
+}
+
+.jucm-comments .control-group {
+    margin-bottom : 5px !important;
+}
+
+.jucm-comments label {
+    display    : block;
+    padding    : 5px 5px 10px 0px;
+    text-align : left !important;
+}
+
+.jucm-comments label span.required {
+    color       : red;
+    margin-left : 5px;
+}
+
+
+input.comment-subscribe {
+    margin-top : 0px !important;
+}
+
+.jucm-comments .captcha {
+    margin-top : 5px;
+}
+
+/* Stylesheet Reply Form */
+.comment-reply-wrapper {
+    float : left;
+    margin-left : 110px;
+}
+
+.fieldset-reply legend {
+    display : block;
+    width   : auto;
+    padding : 0px 2px;
+    margin  : 0px;
+}
+
+.jucm-comments .comment-filter-sort-form {
+    margin-bottom: 0;
+}
+
+.jucm-comments .btn-comment-group {
+    clear : both;
+}
+
+.jucm-comments .btn-reply-group {
+    clear : both;
+}
+
+/* STYLESHEET COMMENT TREE */
+.jucm-comments .total-comments {
+    width         : 100%;
+    padding       : 0;
+    margin-bottom : 20px;
+    font-size     : 21px;
+    line-height   : 40px;
+    color         : #333333;
+    border        : 0;
+    border-bottom : 1px solid #e5e5e5;
+}
+
+.jucm-comments ul.comment-list {
+    list-style         : none !important;
+    padding-left       : 0 !important;
+    box-sizing         : border-box;
+    -moz-box-sizing    : border-box;
+    -webkit-box-sizing : border-box;
+    width              : 100%;
+    clear              : both;
+    margin             : 0;
+}
+
+.jucm-comments ul.comment-list li.comment-item.unpublished {
+    opacity : .6
+}
+
+.jucm-comments ul.comment-list li.comment-item.reported .comment-box{
+	border : 1px solid #FF0000;
+}
+
+.jucm-comments ul.comment-list li.comment-item.unapproved .comment-box{
+	border : 1px solid #0055e4;
+}
+
+.jucm-comments ul.comment-list li.comment-item ul.comment-list {
+    margin: 0 !important;
+}
+
+.jucm-comments ul.comment-list li.comment-item.level-1, .jucm-comments ul.comment-list li.comment-item.level-3 li.comment-item {
+    padding-left : 0 !important
+}
+
+.jucm-comments ul.comment-list li.comment-item .comment-box {
+    width              : 100%;
+    box-sizing         : border-box;
+    -moz-box-sizing    : border-box;
+    -webkit-box-sizing : border-box;
+    border             : 1px solid #e5e5e5;
+    margin-bottom: 20px;
+    padding            : 5px;
+}
+
+.jucm-comments ul.comment-list li.comment-item .comment-box .comment-user {
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+    min-width: 100px;
+}
+
+.jucm-comments ul.comment-list li.comment-item .comment-box .comment-user .comment-avatar {
+    max-width: 100px;
+}
+
+.jucm-comments ul.comment-list li.comment-item .comment-box .comment-user .comment-username {
+    margin-top     : 5px !important;
+    font-size      : 12px !important;
+    text-align     : center;
+}
+
+.jucm-comments ul.comment-list li.comment-item .comment-box .comment-text {
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+.jucm-comments ul.comment-list li.comment-item .comment-box .comment-text .comment-metadata h3 {
+    font-size   : 18px !important;
+    font-weight : 700;
+    color       : #222 !important;
+    font-family : Helvetica, Arial, sans-serif !important;
+    margin      : 10px 0 0 !important
+}
+
+.jucm-comments .comment-item .comment-actions .comment-vote {
+    font-size: 11px;
+    margin: 5px 0;
+}
+
+.jucm-comments ul.comment-list li.comment-item .comment-box .comment-text .comment-metadata .comment-created {
+    color  : #a0a0a0;
+    font-size: 11px;
+}
+
+.jucm-comments ul.comment-list li.comment-item .comment-box .comment-text .comment-metadata .comment-website {
+    margin : 10px 0px 0px 30px;
+    color  : #a0a0a0;
+}
+
+.btn-comment-group a {
+    display         : inline-block;
+    color           : #a0a0a0 !important;
+    text-decoration : none;
+    margin-left     : 10px;
+    float           : left;
+    color           : #7BA428 !important;
+}
+
+.save_edit_comment, .cancel_edit_comment {
+    margin : 10px;
+}
+
+.jucm-pagination {
+	text-align: center;
+}
+
+.comment-item{
+	position: relative;
+}
+.comment-item .private-actions {
+	opacity: 1;
+	position: absolute;
+	right: 5px;
+	top: 10px;
+	transition: all 0.2s ease 0.1s;
+}
+
+.filter-sort{
+    margin: 10px 0;
+}
+
+.filter-sort select {
+    float: left;
+    margin-right: 5px;
+    height: auto;
+}

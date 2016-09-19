@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="field"
+           method="upgrade">
+    <name>Core Ordering</name>
+    <author>JoomUltra</author>
+    <creationDate>18 July 2014</creationDate>
+    <authorEmail>admin@joomultra.com</authorEmail>
+    <version>1.0</version>
+    <license>GNU/GPL</license>
+    <website>http://www.joomultra.com</website>
+    <description></description>
+    <folder>core_ordering</folder>
+    <core>1</core>
+    <default>1</default>
+    <fileset>
+        <files target="components/com_jucomment/fields/core_ordering">
+            <file>core_ordering.xml</file>
+            <file>core_ordering.php</file>
+            <file>index.html</file>
+        </files>
+    </fileset>
+</extension>

@@ -1,0 +1,169 @@
+
+
+.style13_tab .ju-tabs-title-top ul.ju-tabs-title li, .style13_tab .ju-tabs-title-bottom ul.ju-tabs-title li {
+}
+
+.style13_tab .ju-tabs-title-top ul.ju-tabs-title li.first, .style13_tab .ju-tabs-title-bottom ul.ju-tabs-title li.first {
+}
+
+.style13_tab .ju-tabs-title-top ul.ju-tabs-title li.first.active, .style13_tab .ju-tabs-title-bottom ul.ju-tabs-title li.first.active {
+	border-left: medium none;
+}
+
+.style13_tab ul.ju-tabs-title li.active {
+	background: none repeat scroll 0% 0% transparent;
+}
+
+.style13_tab .ju-tabs-title-top ul.ju-tabs-title li.first h3 {
+	border-radius: 5px 0px 0px 0px;
+}
+
+.style13_tab .ju-tabs-title-top ul.ju-tabs-title li.last h3 {
+	border-radius: 0px 0px 5px 0px;
+}
+
+.style13_tab .ju-tabs-title-top ul.ju-tabs-title li h3 {
+}
+
+.style13_tab .ju-tabs-title-bottom ul.ju-tabs-title li.active h3 {
+}
+
+.style13_tab .ju-tabs-title-bottom ul.ju-tabs-title {
+	right: 0px;
+}
+
+.style13_tab .ju-tabs-title-bottom ul.ju-tabs-title li h3 {
+}
+
+.style13_tab .ju-tabs-title-bottom ul.ju-tabs-title li.first h3 {
+	border-radius: 5px 0px 0px 0px;
+}
+
+.style13_tab .ju-tabs-title-bottom ul.ju-tabs-title li.last h3 {
+	border-radius: 0px 0px 5px 0px;
+}
+
+.style13_tab .ju-tabs-title-left ul.ju-tabs-title li, .style13_tab .ju-tabs-title-right ul.ju-tabs-title li {
+	padding: 0px;
+	margin: 0px;
+}
+
+.style13_tab .ju-tabs-title-left ul.ju-tabs-title li.first h3 {
+	border-radius: 5px 0px 0px 0px;
+}
+
+.style13_tab .ju-tabs-title-left ul.ju-tabs-title li.last h3 {
+	border-radius: 0px 0px 5px 0px;
+}
+
+.style13_tab .ju-tabs-title-right ul.ju-tabs-title {
+	bottom: 0px;
+}
+
+.style13_tab .ju-tabs-title-right ul.ju-tabs-title li.active h3, .style13_tab .ju-tabs-title-left ul.ju-tabs-title li.active h3 {
+	border-left: medium none;
+}
+
+.style13_tab .ju-tabs-title-right ul.ju-tabs-title li.first h3 {
+	border-radius: 0px 5px 0px 0px;
+}
+
+.style13_tab .ju-tabs-title-right ul.ju-tabs-title li.last h3 {
+	border-radius: 0px 0px 0px 5px;
+}
+
+.style13_tab .ju-tabs-title-top ul.ju-tabs-title li.last.active h3, .style13_tab .ju-tabs-title-bottom ul.ju-tabs-title li.last.active h3 {
+	border-right: 0px none;
+}
+
+.style13_tab .ju-tabs-title-right ul.ju-tabs-title li h3 {
+	border-bottom: 1px solid #E7E7E7;
+	border-left: 1px solid #E7E7E7;
+}
+
+.style13_tab .ju-tabs-title-right ul.ju-tabs-title li.first h3, .style13_tab .ju-tabs-title-left ul.ju-tabs-title li.first h3 {
+}
+
+.style13_tab .ju-tabs-title-right ul.ju-tabs-title li.first.active h3, .style13_tab .ju-tabs-title-left ul.ju-tabs-title li.first.active h3 {
+	border-top: medium none;
+}
+
+.style13_tab .ju-tabs-title-right ul.ju-tabs-title li.last.active h3, .style13_tab .ju-tabs-title-left ul.ju-tabs-title li.last.active h3 {
+	border-bottom: medium none;
+}
+
+.style13_tab .ju-tabs-title-left ul.ju-tabs-title li h3 {
+	border-bottom: 1px solid #E7E7E7;
+	border-right: 1px solid #E7E7E7;
+}
+
+.style13_tab .ju-tabs-title-top ul.ju-tabs-title li h3 {
+	border-right: 1px solid #E7E7E7;
+	border-bottom: 1px solid #E7E7E7;
+}
+
+.style13_tab .ju-tabs-title-bottom ul.ju-tabs-title li h3 {
+	border-top: 1px solid #E7E7E7;
+	border-left: 1px solid #E7E7E7;
+}
+
+.style13_tab .ju-tabs-title-wrap {
+	background: none repeat scroll 0% 0% transparent;
+}
+
+.style13_tab .ju-tabs-title-wrap.ju-tabs-title-top {
+}
+
+.style13_tab .ju-tabs-title-wrap.ju-tabs-title-bottom {
+}
+
+.style13_tab .ju-tabs-title-wrap.ju-tabs-title-left {
+}
+
+.style13_tab .ju-tabs-title-wrap.ju-tabs-title-right {
+}
+
+.style13_tab.ju-tabs-wrap .ju-tabs-container {
+	background: none repeat scroll 0% 0% transparent;
+	border: 1px solid #E7E7E7;
+	border-radius: 5px 5px 5px 5px;
+	padding: 0px;
+}
+
+.style13_tab.ju-tabs-wrap ul.ju-tabs-title li h3 {
+	padding: 0px ! important;
+	line-height: 20px;
+	background: none repeat scroll 0% 0% #FCFCFC;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.style13_tab.ju-tabs-wrap ul.ju-tabs-title li.active h3 {
+	background: none repeat scroll 0px 0px #EE9900;
+	color: #FFFFFF;
+}
+
+.style13_tab.ju-tabs-wrap ul.ju-tabs-title h3 span {
+	display: block;
+	padding: 5px 10px;
+}
+
+.style13_tab.ju-tabs-wrap ul.ju-tabs-title h3 span.ju-tabs-arrow {
+	display: none;
+}
+
+.style13_tab.ju-tabs-wrap .ju-tabs-panel {
+	background: none repeat scroll 0% 0% #FFFFFF;
+	border: 0px none;
+	padding: 5px;
+}
+
+.style13_tab.ju-tabs-wrap .ju-tabs-panel-left {
+}
+
+.style13_tab.ju-tabs-wrap .ju-tabs-panel-right {
+}
+
+.style13_tab.ju-tabs-wrap .ju-tabs-panel .ju-tabs-content .ju-tabs-subcontent {
+	padding: 10px;
+}

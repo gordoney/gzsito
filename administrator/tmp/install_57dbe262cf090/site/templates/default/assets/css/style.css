@@ -1,0 +1,54 @@
+.jucomment-readon {
+	display: inline-block;
+	width: 100%;
+}
+
+.jucomment-readon span {
+	padding-left: 20px;
+}
+
+.jucomment-readon span.aligned-right {
+	float: right;
+	margin-left: 15px;
+}
+
+.jucomment-readon span.aligned-left {
+	float: left;
+	margin-right: 15px;
+}
+
+.jucomment-readon span.jucomment-hits{
+	background: url(../images/ico-hits.png) 0 center no-repeat;
+}
+
+.jucomment-readon span.jucomment-readmore{
+	background: url(../images/ico-readmore.png) 0 center no-repeat;
+}
+
+.jucomment-readon span.jucomment-comment{
+	background: url(../images/ico-comment.png) 0 center no-repeat;
+}
+
+.jucomment-form-captcha .captcha-image {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+
+.jucomment-form-captcha .captcha-response {
+    width: 124px !important;
+}
+
+.field-box .fields{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    width: 100%;
+}
+
+.field-box .fields > li{
+    float: left;
+    clear: both;
+    width: 100%;
+}

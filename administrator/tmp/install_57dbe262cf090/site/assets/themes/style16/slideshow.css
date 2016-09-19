@@ -1,0 +1,100 @@
+
+
+.style16_slideshow .ju-tabs-container {
+	border: 0px none;
+}
+
+.style16_slideshow .ju-tabs-slide-panels {
+	margin-bottom: 10px;
+}
+
+.style16_slideshow .ju-tabs-slide-panels .ju-tabs-slide-content-wrapper {
+	background: none repeat scroll 0% 0% #FFFFFF;
+}
+
+.style16_slideshow .ju-tabs-slide-nav span {
+	padding: 2px 8px;
+	background: url("images/tab_bg1.png") repeat-x scroll left bottom -1px transparent;
+	border-width: 1px 1px 2px;
+	border-style: solid;
+	border-color: #E7E7E7;
+	border-radius: 3px 3px 0px 0px;
+}
+
+.style16_slideshow .ju-tabs-slide-nav span.active {
+	color: #EE9900;
+	background: url("images/tab_bg2.png") repeat-x scroll left top -1px transparent;
+	border-bottom: 2px solid #EE9900;
+}
+
+.style16_slideshow .ju-tabs-slide-panels .next_btn {
+	background: url("images/right_arrow.png") no-repeat scroll 0px 0px transparent;
+	text-indent: -9999em;
+	padding: 0px;
+	height: 24px;
+	width: 24px;
+	margin-top: -12px;
+	top: 50%;
+}
+
+.style16_slideshow .ju-tabs-slide-panels .prev_btn {
+	background: url("images/left_arrow.png") no-repeat scroll 0px 0px transparent;
+	text-indent: -9999em;
+	padding: 0px;
+	height: 24px;
+	width: 24px;
+	top: 50%;
+	margin-top: -12px;
+}
+
+.style16_slideshow .ju-tabs-slide-buttons span {
+	padding: 0px;
+	margin-left: 8px;
+}
+
+.style16_slideshow .ju-tabs-slide-buttons span.ju-tabs-slide-prev {
+	background: url("images/prev.png") no-repeat scroll 0px 0px transparent;
+	height: 16px;
+	text-indent: -9999em;
+	width: 16px;
+}
+
+.style16_slideshow .ju-tabs-slide-buttons span.ju-tabs-slide-stop {
+	background: url("images/stop.png") no-repeat scroll 0px 0px transparent;
+	height: 16px;
+	text-indent: -9999em;
+	width: 16px;
+}
+
+.style16_slideshow .ju-tabs-slide-buttons span.ju-tabs-slide-play {
+	background: url("images/play.png") no-repeat scroll 0px 0px transparent;
+	height: 16px;
+	text-indent: -9999em;
+	width: 16px;
+}
+
+.style16_slideshow .ju-tabs-slide-buttons span.ju-tabs-slide-next {
+	background: url("images/next.png") no-repeat scroll 0px 0px transparent;
+	height: 16px;
+	text-indent: -9999em;
+	width: 16px;
+}
+
+.style16_slideshow .ju-tabs-slide-panels .ju-tabs-slide-content .ju-tabs-slide-inner h3.ju-tabs-slide-heading {
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 0px 10px;
+	line-height: 35px;
+	color: #EE9900;
+	background: url("images/tab_bg2.png") repeat-x scroll left top -1px transparent;
+	border-width: 1px 1px 4px;
+	border-style: solid;
+	border-color: #E7E7E7 #E7E7E7 #EE9900;
+	border-radius: 5px 5px 2px 2px;
+}
+
+.style16_slideshow .ju-tabs-slide-panels .ju-tabs-slide-content .ju-tabs-slide-subcontent {
+	border-left: 1px solid #E7E7E7;
+	border-right: 1px solid #E7E7E7;
+	border-bottom: 1px solid #E7E7E7;
+}

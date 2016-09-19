@@ -1,0 +1,166 @@
+
+
+.style17_tab .ju-tabs-title-top ul.ju-tabs-title li, .style17_tab .ju-tabs-title-bottom ul.ju-tabs-title li {
+	background: none repeat scroll 0% 0% transparent;
+}
+
+.style17_tab .ju-tabs-title-left ul.ju-tabs-title li.first, .style17_tab .ju-tabs-title-right ul.ju-tabs-title li.first {
+}
+
+.style17_tab .ju-tabs-title-top ul.ju-tabs-title li.first.active, .style17_tab .ju-tabs-title-bottom ul.ju-tabs-title li.first.active {
+}
+
+.style17_tab ul.ju-tabs-title li.active {
+}
+
+.style17_tab .ju-tabs-title-top ul.ju-tabs-title li.active h3 {
+	background: none repeat scroll 0% 0% #EE9900;
+}
+
+.style17_tab .ju-tabs-title-top ul.ju-tabs-title li h3 {
+}
+
+.style17_tab .ju-tabs-title-bottom ul.ju-tabs-title li.active h3 {
+	background: none repeat scroll 0% 0% #EE9900;
+}
+
+.style17_tab .ju-tabs-title-top ul.ju-tabs-title li h3 {
+	border-right: 1px solid #666666;
+}
+
+.style17_tab .ju-tabs-title-bottom ul.ju-tabs-title li h3 {
+	background: none repeat scroll 0% 0% transparent;
+	border-right: 1px solid #666666;
+}
+
+.style17_tab .ju-tabs-title-left ul.ju-tabs-title li, .style17_tab .ju-tabs-title-right ul.ju-tabs-title li {
+	padding: 0px;
+	margin: 0px;
+	background: none repeat scroll 0% 0% transparent;
+}
+
+.style17_tab .ju-tabs-title-left ul.ju-tabs-title li.last, .style17_tab .ju-tabs-title-right ul.ju-tabs-title li.last {
+	margin-bottom: 0px;
+}
+
+.style17_tab .ju-tabs-title-right ul.ju-tabs-title li.active h3 {
+	background: none repeat scroll 0% 0% #EE9900;
+}
+
+.style17_tab .ju-tabs-title-right ul.ju-tabs-title li h3 {
+	border-bottom: 1px solid #666666;
+}
+
+.style17_tab .ju-tabs-title-left ul.ju-tabs-title li.active h3 {
+	background: none repeat scroll 0% 0% #EE9900;
+}
+
+.style17_tab .ju-tabs-title-left ul.ju-tabs-title li h3 {
+	border-bottom: 1px solid #666666;
+}
+
+.style17_tab .ju-tabs-title-top ul.ju-tabs-title {
+	width: 100%;
+	background: none repeat scroll 0% 0% #262626;
+}
+
+.style17_tab .ju-tabs-title-wrap.ju-tabs-title-top {
+}
+
+.style17_tab .ju-tabs-title-bottom ul.ju-tabs-title {
+	width: 100%;
+	z-index: 9999;
+	background: none repeat scroll 0% 0% #262626;
+}
+
+.style17_tab .ju-tabs-title-left ul.ju-tabs-title {
+	background: none repeat scroll 0% 0% #262626;
+}
+
+.style17_tab .ju-tabs-title-right ul.ju-tabs-title {
+	background: none repeat scroll 0% 0% #262626;
+}
+
+.style17_tab .ju-tabs-title-wrap.ju-tabs-title-bottom {
+}
+
+.style17_tab .ju-tabs-title-wrap.ju-tabs-title-left {
+	background: none repeat scroll 0px 0px transparent;
+}
+
+.style17_tab .ju-tabs-title-wrap.ju-tabs-title-right {
+	background: none repeat scroll 0px 0px transparent;
+}
+
+.style17_tab.ju-tabs-wrap .ju-tabs-container {
+	border: 0px none;
+	background: none repeat scroll 0% 0% transparent;
+}
+
+.style17_tab.ju-tabs-wrap ul.ju-tabs-title li h3 {
+	padding: 0px ! important;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #EEEEEE;
+}
+
+.style17_tab.ju-tabs-wrap ul.ju-tabs-title li.active h3 {
+	color: #FFFFFF;
+}
+
+.style17_tab.ju-tabs-wrap .ju-tabs-title-top li.first.active h3, .style17_tab.ju-tabs-wrap .ju-tabs-title-top li.last.active h3, .style17_tab.ju-tabs-wrap .ju-tabs-title-bottom li.first.active h3, .style17_tab.ju-tabs-wrap .ju-tabs-title-bottom li.last.active h3 {
+	border-right: 0px none;
+}
+
+.style17_tab.ju-tabs-wrap .ju-tabs-title-left li.first.active h3, .style17_tab.ju-tabs-wrap .ju-tabs-title-left li.last.active h3, .style17_tab.ju-tabs-wrap .ju-tabs-title-right li.first.active h3, .style17_tab.ju-tabs-wrap .ju-tabs-title-right li.last.active h3 {
+	border-bottom: 0px none;
+}
+
+.style17_tab.ju-tabs-wrap ul.ju-tabs-title li h3 span {
+	display: block;
+	padding: 8px 10px;
+}
+
+.style17_tab.ju-tabs-wrap .ju-tabs-title-top li.active h3 span {
+	display: block;
+	padding: 8px 10px;
+}
+
+.style17_tab.ju-tabs-wrap .ju-tabs-title-bottom li.active h3 span {
+	display: block;
+	padding: 8px 10px;
+}
+
+.style17_tab.ju-tabs-wrap ul.ju-tabs-title h3 span.ju-tabs-arrow {
+	display: none;
+}
+
+.style17_tab.ju-tabs-wrap .ju-tabs-panel {
+	background: none repeat scroll 0% 0% #FFFFFF;
+	border: 0px none;
+}
+
+.style17_tab.ju-tabs-wrap .ju-tabs-panel-top {
+	background: none repeat scroll 0% 0% #EE9900;
+	color: #FFFFFF;
+}
+
+.style17_tab.ju-tabs-wrap .ju-tabs-panel-bottom {
+	background: none repeat scroll 0% 0% #EE9900;
+	color: #FFFFFF;
+}
+
+.style17_tab.ju-tabs-wrap .ju-tabs-panel-left {
+	background: none repeat scroll 0% 0% #EE9900;
+	color: #FFFFFF;
+}
+
+.style17_tab.ju-tabs-wrap .ju-tabs-panel-right {
+	background: none repeat scroll 0% 0% #EE9900;
+	color: #FFFFFF;
+}
+
+.style17_tab.ju-tabs-wrap .ju-tabs-panel .ju-tabs-content .ju-tabs-subcontent {
+	padding: 10px;
+}

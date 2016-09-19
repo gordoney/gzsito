@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="field"
+           method="upgrade">
+    <name>Core Parent id</name>
+    <author>JoomUltra</author>
+    <creationDate>18 July 2014</creationDate>
+    <authorEmail>admin@joomultra.com</authorEmail>
+    <version>1.0</version>
+    <license>GNU/GPL</license>
+    <website>http://www.joomultra.com</website>
+    <description></description>
+    <folder>core_parent_id</folder>
+    <core>1</core>
+    <default>1</default>
+    <fileset>
+        <files target="components/com_jucomment/fields/core_parent_id">
+            <file>core_parent_id.xml</file>
+            <file>core_parent_id.php</file>
+            <file>index.html</file>
+        </files>
+    </fileset>
+</extension>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="field"
+           method="upgrade">
+    <name>Core Comment</name>
+    <author>JoomUltra</author>
+    <creationDate>18 July 2014</creationDate>
+    <authorEmail>admin@joomultra.com</authorEmail>
+    <version>1.0</version>
+    <license>GNU/GPL</license>
+    <website>http://www.joomultra.com</website>
+    <description></description>
+    <folder>core_description</folder>
+    <core>1</core>
+    <default>1</default>
+    <fileset>
+        <files target="components/com_jucomment/fields/core_comment">
+            <file>core_comment.xml</file>
+            <file>core_comment.php</file>
+            <file>index.html</file>
+            <folder>tmpl</folder>
+        </files>
+    </fileset>
+    <config>
+        <field
+                name="width"
+                type="text"
+                default="400"
+                label="COM_JUCOMMENT_FIELD_WIDTH_LABEL"
+                description="COM_JUCOMMENT_FIELD_WIDTH_DESC"
+                />
+
+        <field
+                name="height"
+                type="text"
+                default="300"
+                label="COM_JUCOMMENT_FIELD_HEIGHT_LABEL"
+                description="COM_JUCOMMENT_FIELD_HEIGHT_DESC"
+                />
+
+        <field
+                name="cols"
+                type="text"
+                default="50"
+                label="COM_JUCOMMENT_FIELD_COLS_LABEL"
+                description="COM_JUCOMMENT_FIELD_COLS_DESC"
+                />
+
+        <field
+                name="rows"
+                type="text"
+                default="5"
+                label="COM_JUCOMMENT_FIELD_ROWS_LABEL"
+                description="COM_JUCOMMENT_FIELD_ROWS_DESC"
+                />
+
+        <field
+                name="use_editor_back_end"
+                type="radio"
+                default="0"
+                class="btn-group"
+                label="COM_JUCOMMENT_FIELD_USE_EDITOR_BACK_END_LABEL"
+                description="COM_JUCOMMENT_FIELD_USE_EDITOR_BACK_END_DESC"
+                >
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="use_editor_front_end"
+                type="radio"
+                default="0"
+                class="btn-group"
+                label="COM_JUCOMMENT_FIELD_USE_EDITOR_FRONTEND_LABEL"
+                description="COM_JUCOMMENT_FIELD_USE_EDITOR_FRONTEND_DESC">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="groups_can_use_frontend_editor"
+                type="accesslevel"
+                multiple="true"
+                default="1"
+                label="COM_JUCOMMENT_FIELD_USER_GROUPS_CAN_USE_FRONTEND_EDITOR_LABEL"
+                description="COM_JUCOMMENT_FIELD_USER_GROUPS_CAN_USE_FRONTEND_EDITOR_DESC">
+            <option value="none">COM_JUCOMMENT_NONE</option>
+        </field>
+
+        <field name="placeholder"
+               type="text"
+               default=""
+               label="COM_JUCOMMENT_FIELD_PLACEHOLDER_LABEL"
+               description="COM_JUCOMMENT_FIELD_PLACEHOLDER_DESC"
+                />
+
+        <field
+                name="filter"
+                type="list"
+                label="COM_JUCOMMENT_FIELD_FILTER_LABEL"
+                description="COM_JUCOMMENT_FIELD_FILTER_DESC"
+                default="RAW">
+            <option value="">COM_JUCOMMENT_NONE</option>
+            <option value="RAW">COM_JUCOMMENT_FILTER_RAW</option>
+            <option value="SAFEHTML">COM_JUCOMMENT_FILTER_SAFE_HTML</option>
+        </field>
+
+        <field
+                name="trigger_window_resize"
+                type="radio"
+                default="0"
+                class="btn-group"
+                label="COM_JUCOMMENT_FIELD_TRIGGER_WINDOW_RESIZE_LABEL"
+                description="COM_JUCOMMENT_FIELD_TRIGGER_WINDOW_RESIZE_DESC">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+        </field>
+
+        <field
+                name="restrict_type"
+                type="list"
+                default=""
+                class="jufilter"
+                label="COM_JUCOMMENT_FIELD_RESTRICT_TYPE_LABEL"
+                description="COM_JUCOMMENT_FIELD_RESTRICT_TYPE_LABEL"
+                >
+            <option value="">COM_JUCOMMENT_NONE</option>
+            <option value="min">COM_JUCOMMENT_MIN</option>
+            <option value="max">COM_JUCOMMENT_MAX</option>
+            <option value="range">COM_JUCOMMENT_RANGE</option>
+        </field>
+
+        <!--ex 2 or 2,3 for range-->
+        <field
+                name="restrict_value"
+                type="text"
+                default=""
+                class="jufilter-restrict_type-min-max-range"
+                label="COM_JUCOMMENT_FIELD_RESTRICT_VALUE_LABEL"
+                description="COM_JUCOMMENT_FIELD_RESTRICT_VALUE_DESC"
+                />
+
+        <field
+                name="invalid_message"
+                type="text"
+                default=""
+                label="COM_JUCOMMENT_FIELD_INVALID_MESSAGE_LABEL"
+                description="COM_JUCOMMENT_FIELD_INVALID_MESSAGE_DESC"
+                />
+        <field
+                name="required_message"
+                type="text"
+                default=""
+                label="COM_JUCOMMENT_FIELD_REQUIRED_MESSAGE_LABEL"
+                description="COM_JUCOMMENT_FIELD_REQUIRED_MESSAGE_DESC"
+                />
+    </config>
+</extension>

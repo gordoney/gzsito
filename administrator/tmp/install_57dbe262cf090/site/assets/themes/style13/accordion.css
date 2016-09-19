@@ -1,0 +1,81 @@
+
+
+.style13_accordion {
+}
+
+.style13_accordion .ju-tabs-container {
+	border: 0px none;
+}
+
+.style13_accordion ul.ju-tabs-accordion {
+	padding: 0px ! important;
+	margin: 0px ! important;
+}
+
+.style13_accordion ul.ju-tabs-accordion li h3.ju-tabs-accordion-title.active {
+	background: none repeat scroll 0% 0% #EE9900;
+	color: #FFFFFF;
+}
+
+.style13_accordion ul.ju-tabs-accordion li h3.ju-tabs-accordion-title {
+	background: none repeat scroll 0px 0px #FCFCFC;
+	text-transform: uppercase;
+	font-size: 12px;
+	border-bottom: 1px solid #E7E7E7;
+	border-left: 1px solid #E7E7E7;
+	border-right: 1px solid #E7E7E7;
+}
+
+.style13_accordion ul.ju-tabs-accordion-vertical li.first h3.ju-tabs-accordion-title {
+	border-radius: 5px 5px 0px 0px;
+	border-top: 1px solid #E7E7E7;
+}
+
+.style13_accordion ul.ju-tabs-accordion-vertical li.last h3.ju-tabs-accordion-title {
+	border-radius: 0px 0px 5px 5px;
+}
+
+.style13_accordion ul.ju-tabs-accordion-vertical li.last h3.ju-tabs-accordion-title.active {
+	border-radius: 0px 0px 0px 0px;
+}
+
+.style13_accordion ul.ju-tabs-accordion-vertical li.last .ju-tabs-accordion-content {
+	border-radius: 0px 0px 5px 5px;
+}
+
+.style13_accordion ul.ju-tabs-accordion-horizontal li.first h3.ju-tabs-accordion-title {
+	border-radius: 5px 5px 0px 0px;
+	border-top: 1px solid #E7E7E7;
+}
+
+.style13_accordion ul.ju-tabs-accordion-horizontal li.last h3.ju-tabs-accordion-title {
+	border-radius: 0px 0px 5px 5px;
+}
+
+.style13_accordion ul.ju-tabs-accordion-horizontal li.last h3.ju-tabs-accordion-title.active {
+	border-radius: 0px 0px 0px 0px;
+}
+
+.style13_accordion ul.ju-tabs-accordion-horizontal li.last .ju-tabs-accordion-content {
+	border-radius: 0px 5px 5px 0px;
+}
+
+.style13_accordion ul.ju-tabs-accordion li div.ju-tabs-accordion-content {
+	background: none repeat scroll 0% 0% #FFFFFF;
+}
+
+.style13_accordion ul.ju-tabs-accordion-horizontal li div.ju-tabs-accordion-content {
+	border-right: 1px solid #E7E7E7;
+	border-top: 1px solid #E7E7E7;
+	border-bottom: 1px solid #E7E7E7;
+}
+
+.style13_accordion ul.ju-tabs-accordion-vertical li div.ju-tabs-accordion-content {
+	border-bottom: 1px solid #E7E7E7;
+	border-left: 1px solid #E7E7E7;
+	border-right: 1px solid #E7E7E7;
+}
+
+.style13_accordion ul.ju-tabs-accordion li div.ju-tabs-accordion-subcontent {
+	padding: 10px;
+}

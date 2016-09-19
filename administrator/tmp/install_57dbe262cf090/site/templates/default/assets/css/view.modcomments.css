@@ -1,0 +1,29 @@
+.comments-manager .jucm-frontend-toolbar {
+	margin : 10px 0;
+}
+
+.comments-manager table {
+	clear      : both;
+	margin-top : 10px;
+}
+
+.comments-manager .center {
+	text-align : center !important;
+}
+
+.comments-manager span.gi {
+	color : #ccc;
+}
+
+.comments-manager .modal {
+	border-radius : 0px;
+	box-shadow    : none;
+	color:#000;
+	position: static;
+	margin-left:0px;
+	border:none;
+}
+
+.comments-manager #limit {
+	width: auto;
+}

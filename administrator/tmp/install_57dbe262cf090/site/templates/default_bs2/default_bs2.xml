@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" method="upgrade" jucommentplugintype="template">
+    <name>Default BS2</name>
+    <author>JoomUltra</author>
+    <creationDate>21 Mar 2016</creationDate>
+    <authorEmail>admin@joomultra.com</authorEmail>
+    <version>1.0.4</version>
+    <license>GNU/GPL</license>
+    <authorUrl>http://www.joomultra.com</authorUrl>
+    <description>Default BS2 JU Comment template</description>
+    <folder>default</folder>
+    <information><![CDATA[
+			Default BS2 JUComment Template
+		]]></information>
+    <fileset>
+        <files target="components/com_jucomment/templates/default_bs2">
+            <file>default.xml</file>
+            <file>index.html</file>
+            <file>index.php</file>
+            <folder>assets</folder>
+            <folder>fields</folder>
+            <folder>themes</folder>
+        </files>
+    </fileset>
+    <languages>
+        <language tag="en-GB" client="administrator">en-GB.com_jucomment_tpl_default_bs2.ini</language>
+    </languages>
+
+    <config>
+        <fieldset name="params">
+        </fieldset>
+    </config>
+</extension>

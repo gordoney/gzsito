@@ -1,0 +1,159 @@
+
+
+.style09_tab .ju-tabs-title-top ul.ju-tabs-title li, .style09_tab .ju-tabs-title-bottom ul.ju-tabs-title li {
+	margin-right: 0px;
+	padding: 4px 5px;
+	background: none repeat scroll 0% 0% transparent;
+}
+
+.style09_tab .ju-tabs-title-left ul.ju-tabs-title li.first, .style09_tab .ju-tabs-title-right ul.ju-tabs-title li.first {
+	border-top: medium none;
+}
+
+.style09_tab .ju-tabs-title-top ul.ju-tabs-title li.first.active, .style09_tab .ju-tabs-title-bottom ul.ju-tabs-title li.first.active {
+	border-left: medium none;
+}
+
+.style09_tab ul.ju-tabs-title li.active {
+	background: none repeat scroll 0% 0% transparent;
+}
+
+.style09_tab .ju-tabs-title-top ul.ju-tabs-title li.active h3 {
+}
+
+.style09_tab .ju-tabs-title-top ul.ju-tabs-title li h3 {
+}
+
+.style09_tab .ju-tabs-title-bottom ul.ju-tabs-title li.active h3 {
+}
+
+.style09_tab .ju-tabs-title-bottom ul.ju-tabs-title li h3, .style09_tab .ju-tabs-title-top ul.ju-tabs-title li h3 {
+}
+
+.style09_tab .ju-tabs-title-left ul.ju-tabs-title li, .style09_tab .ju-tabs-title-right ul.ju-tabs-title li {
+	background: none repeat scroll 0% 0% transparent;
+	padding: 0px;
+	margin: 5px 0px;
+}
+
+.style09_tab .ju-tabs-title-right ul.ju-tabs-title li.active h3 {
+}
+
+.style09_tab .ju-tabs-title-right ul.ju-tabs-title li h3 {
+}
+
+.style09_tab .ju-tabs-title-left ul.ju-tabs-title li.active h3 {
+}
+
+.style09_tab .ju-tabs-title-left ul.ju-tabs-title li h3 {
+}
+
+.style09_tab .ju-tabs-title-wrap.ju-tabs-title-top {
+	background: none repeat scroll 0% 0% transparent;
+	padding: 0px 10px;
+	margin-bottom: -16px;
+}
+
+.style09_tab .ju-tabs-title-wrap.ju-tabs-title-bottom {
+	margin-top: -20px;
+	padding: 0px 10px;
+	background: none repeat scroll 0% 0% transparent;
+}
+
+.style09_tab .ju-tabs-title-wrap.ju-tabs-title-bottom ul.ju-tabs-title {
+	right: 10px;
+}
+
+.style09_tab .ju-tabs-title-wrap.ju-tabs-title-left {
+	background: none repeat scroll 0% 0% transparent;
+	padding: 10px 0px;
+	margin-right: -15px;
+}
+
+.style09_tab .ju-tabs-title-wrap.ju-tabs-title-right {
+	background: none repeat scroll 0% 0% transparent;
+	margin-left: -15px;
+	padding: 10px 0px;
+}
+
+.style09_tab .ju-tabs-title-wrap.ju-tabs-title-right ul.ju-tabs-title {
+}
+
+.style09_tab.ju-tabs-wrap .ju-tabs-container {
+	background: none repeat scroll 0% 0% transparent;
+	border: 0px none;
+}
+
+.style09_tab.ju-tabs-wrap ul.ju-tabs-title li h3 {
+	padding: 0px ! important;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-size: 11px;
+	border: 1px solid #D9D9D9;
+	border-radius: 5px 5px 5px 5px;
+	color: #505050;
+	z-index: 100;
+	background: url("images/tab_bg1.png") repeat-x scroll center top -1px #EFEFEF;
+}
+
+.style09_tab.ju-tabs-wrap ul.ju-tabs-title li.active h3 {
+	color: #EE9900;
+	background: url("images/tab_bg2.png") repeat-x scroll center top -1px #FFFFFF;
+}
+
+.style09_tab.ju-tabs-wrap ul.ju-tabs-title h3 span {
+	display: block;
+	padding: 2px 10px;
+}
+
+.style09_tab.ju-tabs-wrap ul.ju-tabs-title h3 span.ju-tabs-arrow {
+	display: none;
+}
+
+.style09_tab.ju-tabs-wrap .ju-tabs-panel {
+	background: none repeat scroll 0% 0% #FFFFFF;
+	border-radius: 5px 5px 5px 5px;
+	border: 3px solid #E7E7E7;
+}
+
+.style09_tab.ju-tabs-wrap .ju-tabs-panel-top {
+	margin: 0px 5px 5px;
+}
+
+.style09_tab.ju-tabs-wrap .ju-tabs-panel-bottom {
+	margin: 5px 5px 0px;
+}
+
+.style09_tab.ju-tabs-wrap .ju-tabs-panel-left {
+	margin: 5px 5px 5px 0px;
+}
+
+.style09_tab.ju-tabs-wrap .ju-tabs-panel-right {
+	margin: 5px;
+}
+
+.style09_tab.ju-tabs-wrap .ju-tabs-panel-left {
+}
+
+.style09_tab.ju-tabs-wrap .ju-tabs-panel-right {
+}
+
+.style09_tab.ju-tabs-wrap .ju-tabs-panel .ju-tabs-content .ju-tabs-subcontent {
+	padding: 10px;
+}
+
+.style09_tab.ju-tabs-wrap .ju-tabs-panel-left .ju-tabs-content .ju-tabs-subcontent {
+	padding: 10px 10px 10px 20px;
+}
+
+.style09_tab.ju-tabs-wrap .ju-tabs-panel-right .ju-tabs-content .ju-tabs-subcontent {
+	padding: 10px 20px 10px 10px;
+}
+
+.style09_tab.ju-tabs-wrap .ju-tabs-panel-top .ju-tabs-content .ju-tabs-subcontent {
+	padding: 20px 10px 10px;
+}
+
+.style09_tab.ju-tabs-wrap .ju-tabs-panel-bottom .ju-tabs-content .ju-tabs-subcontent {
+	padding: 10px 10px 20px;
+}

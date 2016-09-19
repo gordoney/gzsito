@@ -1,0 +1,71 @@
+.comments-manager .jucm-frontend-toolbar {
+	margin : 10px 0;
+}
+
+.comments-manager table {
+	clear      : both;
+	margin-top : 10px;
+}
+
+.comments-manager .center {
+	text-align : center !important;
+}
+
+.comments-manager span.gi {
+	color : #ccc;
+}
+
+.comments-manager .modal {
+	border-radius : 0px;
+	box-shadow    : none;
+	color:#000;
+	position: static;
+	margin-left:0px;
+	border:none;
+}
+
+.comments-manager #limit {
+	width: auto;
+}
+
+.comments-manager .unpublished {
+	opacity: 0.6;
+}
+
+.comments-manager .reported td {
+	border: 1px solid #FF0000;
+}
+.comments-manager .reported td {
+	border-left: none;
+	border-right: none;
+}
+.comments-manager .reported td:first-child {
+	border-left: 1px solid #FF0000;
+}
+.comments-manager .reported td:last-child {
+	border-right: 1px solid #FF0000;
+}
+
+.comments-manager .unapproved td {
+	border: 1px solid #0055e4;
+}
+.comments-manager .unapproved td {
+	border-left: none;
+	border-right: none;
+}
+.comments-manager .unapproved td:first-child {
+	border-left: 1px solid #0055e4;
+}
+.comments-manager .unapproved td:last-child {
+	border-right: 1px solid #0055e4;
+}
+
+.filter-sort{
+	margin: 10px 0;
+}
+
+.filter-sort select {
+	float: left;
+	margin-right: 5px;
+	height: auto;
+}

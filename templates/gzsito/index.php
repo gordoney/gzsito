@@ -85,16 +85,23 @@ $pageClass = $activeMenu->params['pageclass_sfx']; ?>
 					<jdoc:include type="modules" name="content" style="xhtml" />
 				</div>
 			</div>
-		<?php } else { ?>
+		<?php } else if ($this->countModules('right-block-content')) { ?>
 			<div id="main-content" class="main-content">
 				<div class="container clearfix">
 					<div class="left-block-content">
-						<jdoc:include type="modules" name="left-block-content" style="xhtml" />
-					</div>
-					<div class="right-block-content">
-						<!--<jdoc:include type="message" />-->
+						<jdoc:include type="message" />
 						<jdoc:include type="component" />
 					</div>
+					<div class="right-block-content">
+						<jdoc:include type="modules" name="right-block-content" style="xhtml" />
+					</div>
+				</div>
+			</div>
+		<?php } else { ?>
+			<div id="main-content" class="main-content">
+				<div class="container clearfix">
+					<jdoc:include type="message" />
+					<jdoc:include type="component" />
 				</div>
 			</div>
 		<?php } ?>

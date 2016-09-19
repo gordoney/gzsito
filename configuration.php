@@ -56,8 +56,8 @@ class JConfig {
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
 	public $feed_email = 'none';
-	public $log_path = '/home/gzsito/domains/gzsito.medialine.by/public_html/logs';
-	public $tmp_path = '/home/gzsito/domains/gzsito.medialine.by/public_html/tmp';
+	public $log_path = 'C:\\OpenServer\\domains\\gzsito\\administrator/logs';
+	public $tmp_path = 'C:\\OpenServer\\domains\\gzsito\\administrator/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $memcache_persist = '1';

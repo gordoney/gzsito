@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="integration"
+           method="upgrade">
+	<name>Com Content</name>
+	<author>JoomUltra</author>
+	<creationDate>18 July 2014</creationDate>
+	<authorEmail>admin@joomultra.com</authorEmail>
+	<version>1.0</version>
+	<license>GNU/GPL</license>
+	<website>http://www.joomultra.com</website>
+	<description></description>
+	<folder>core_component</folder>
+	<core>1</core>
+	<default>1</default>
+    <fileset>
+        <files target="components/com_jucomment/integrations/com_content">
+            <file>com_content.xml</file>
+            <file>com_content.php</file>
+            <file>index.html</file>
+        </files>
+    </fileset>
+	<config>
+		<fieldset name="component_configs"
+                  label="COM_JUCOMMENT_COMPONENT">
+            <field name="frontpage_comment"
+                   type="radio"
+                   default="1"
+                   class="btn-group"
+                   label="COM_JUCOMMENT_CONFIG_FRONTPAGE_COMMENT_LABEL"
+                   description="COM_JUCOMMENT_CONFIG_FRONTPAGE_COMMENT_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field name="frontpage_readmore"
+                   type="list"
+                   default="1"
+                   label="COM_JUCOMMENT_CONFIG_FRONTPAGE_READMORE_LABEL"
+                   description="COM_JUCOMMENT_CONFIG_FRONTPAGE_READMORE_DESC">
+                <option value="0">COM_JUCOMMENT_CONFIG_ALWAYS_HIDE</option>
+                <option value="1">COM_JUCOMMENT_CONFIG_OBEY_READMORE_BREAK</option>
+                <option value="2">COM_JUCOMMENT_CONFIG_ALWAYS_SHOW</option>
+            </field>
+
+            <field name="frontpage_readmore_use_joomla"
+                   type="radio"
+                   default="0"
+                   class="btn-group"
+                   label="COM_JUCOMMENT_CONFIG_FRONTPAGE_READMORE_USE_JOOMLA_LABEL"
+                   description="COM_JUCOMMENT_CONFIG_FRONTPAGE_READMORE_USE_JOOMLA_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field name="pagebreak_load"
+                   type="list"
+                   default="last"
+                   label="COM_JUCOMMENT_CONFIG_PAGEBREAK_LOAD_LABEL"
+                   description="COM_JUCOMMENT_CONFIG_PAGEBREAK_LOAD_DESC">
+                <option value="all">COM_JUCOMMENT_CONFIG_ON_ALL_PAGES</option>
+                <option value="first">COM_JUCOMMENT_CONFIG_ON_FIRST_PAGE</option>
+                <option value="last">COM_JUCOMMENT_CONFIG_ON_LAST_PAGE</option>
+            </field>
+
+            <field name="frontpage_hits"
+                   type="radio"
+                   default="1"
+                   class="btn-group"
+                   label="COM_JUCOMMENT_CONFIG_FRONTPAGE_HITS_LABEL"
+                   description="COM_JUCOMMENT_CONFIG_FRONTPAGE_HITS_DESC">
+                <option value="1">JYES</option>
+                <option value="0">JNO</option>
+            </field>
+
+            <field name="frontpage_alignment"
+                   type="list"
+                   default="right"
+                   label="COM_JUCOMMENT_CONFIG_FRONTPAGE_ALIGNMENT_LABEL"
+                   description="COM_JUCOMMENT_CONFIG_FRONTPAGE_ALIGNMENT_DESC">
+                <option value="left">COM_JUCOMMENT_OPTION_LEFT</option>
+                <option value="right">COM_JUCOMMENT_OPTION_RIGHT</option>
+            </field>
+		</fieldset>
+	</config>
+
+    <!-- Cat directly in component(Default section) -->
+    <cat_config>
+        <field name="size"
+               type="text"
+               default="32"
+               class="validate-numeric"
+               label="COM_JUCOMMENT_FIELD_SIZE_LABEL"
+               description="COM_JUCOMMENT_FIELD_SIZE_DESC"
+        />
+    </cat_config>
+</extension>

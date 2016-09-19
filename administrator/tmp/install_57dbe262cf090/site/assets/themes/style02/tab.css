@@ -1,0 +1,149 @@
+
+
+.style02_tab .ju-tabs-title-top ul.ju-tabs-title {
+	width: 100%;
+	border-bottom: 3px solid #262626;
+}
+
+.style02_tab .ju-tabs-title-bottom ul.ju-tabs-title {
+	width: 100%;
+	border-top: 3px solid #262626;
+}
+
+.style02_tab .ju-tabs-title-top ul.ju-tabs-title li, .style02_tab .ju-tabs-title-bottom ul.ju-tabs-title li {
+	margin-right: 0px;
+}
+
+.style02_tab .ju-tabs-title-top ul.ju-tabs-title li.first, .style02_tab .ju-tabs-title-bottom ul.ju-tabs-title li.first {
+	border-left: 1px solid #E7E7E7;
+}
+
+.style02_tab .ju-tabs-title-top ul.ju-tabs-title li.first.active, .style02_tab .ju-tabs-title-bottom ul.ju-tabs-title li.first.active {
+	border-left: medium none;
+}
+
+.style02_tab ul.ju-tabs-title li.active {
+	background: none repeat scroll 0% 0% transparent;
+}
+
+.style02_tab .ju-tabs-title-top ul.ju-tabs-title li.active h3 {
+}
+
+.style02_tab .ju-tabs-title-top ul.ju-tabs-title li h3 {
+}
+
+.style02_tab .ju-tabs-title-bottom ul.ju-tabs-title li.active h3 {
+	border-top: medium none;
+}
+
+.style02_tab .ju-tabs-title-bottom ul.ju-tabs-title li h3 {
+}
+
+.style02_tab .ju-tabs-title-left ul.ju-tabs-title li, .style02_tab .ju-tabs-title-right ul.ju-tabs-title li {
+	padding: 0px;
+	margin: 0px;
+}
+
+.style02_tab .ju-tabs-title-right ul.ju-tabs-title li.active h3, .style02_tab .ju-tabs-title-left ul.ju-tabs-title li.active h3 {
+	border-left: medium none;
+}
+
+.style02_tab .ju-tabs-title-top ul.ju-tabs-title li.last.active h3, .style02_tab .ju-tabs-title-bottom ul.ju-tabs-title li.last.active h3 {
+	border-right: 0px none;
+}
+
+.style02_tab .ju-tabs-title-right ul.ju-tabs-title li h3 {
+	border-bottom: 1px solid #E7E7E7;
+	border-right: 1px solid #E7E7E7;
+}
+
+.style02_tab .ju-tabs-title-right ul.ju-tabs-title li.first h3, .style02_tab .ju-tabs-title-left ul.ju-tabs-title li.first h3 {
+	border-top: 1px solid #E7E7E7;
+}
+
+.style02_tab .ju-tabs-title-right ul.ju-tabs-title li.first.active h3, .style02_tab .ju-tabs-title-left ul.ju-tabs-title li.first.active h3 {
+	border-top: medium none;
+}
+
+.style02_tab .ju-tabs-title-right ul.ju-tabs-title li.last.active h3, .style02_tab .ju-tabs-title-left ul.ju-tabs-title li.last.active h3 {
+	border-bottom: medium none;
+}
+
+.style02_tab .ju-tabs-title-left ul.ju-tabs-title li h3 {
+	border-bottom: 1px solid #E7E7E7;
+	border-left: 1px solid #E7E7E7;
+}
+
+.style02_tab .ju-tabs-title-top ul.ju-tabs-title li h3 {
+	border-top: 1px solid #E7E7E7;
+	border-right: 1px solid #E7E7E7;
+}
+
+.style02_tab .ju-tabs-title-bottom ul.ju-tabs-title li h3 {
+	border-bottom: 1px solid #E7E7E7;
+	border-right: 1px solid #E7E7E7;
+}
+
+.style02_tab .ju-tabs-title-wrap {
+}
+
+.style02_tab .ju-tabs-title-wrap.ju-tabs-title-top {
+}
+
+.style02_tab .ju-tabs-title-wrap.ju-tabs-title-bottom {
+}
+
+.style02_tab .ju-tabs-title-wrap.ju-tabs-title-left {
+	border-right: 3px solid #262626;
+	margin-right: -3px;
+}
+
+.style02_tab .ju-tabs-title-wrap.ju-tabs-title-right {
+	border-left: 3px solid #262626;
+	margin-left: -3px;
+}
+
+.style02_tab.ju-tabs-wrap .ju-tabs-container {
+	padding: 10px;
+	border: 1px solid #E7E7E7;
+	background: none repeat scroll 0px 0px #FAFAFA;
+}
+
+.style02_tab.ju-tabs-wrap ul.ju-tabs-title li h3 {
+	padding: 0px ! important;
+	line-height: 20px;
+	background: none repeat scroll 0% 0% #FCFCFC;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.style02_tab.ju-tabs-wrap ul.ju-tabs-title li.active h3 {
+	background: none repeat scroll 0px 0px #262626;
+	color: #FFFFFF;
+}
+
+.style02_tab.ju-tabs-wrap ul.ju-tabs-title h3 span {
+	display: block;
+	padding: 6px 10px 5px;
+}
+
+.style02_tab.ju-tabs-wrap ul.ju-tabs-title h3 span.ju-tabs-arrow {
+	display: none;
+}
+
+.style02_tab.ju-tabs-wrap .ju-tabs-panel {
+	background: none repeat scroll 0% 0% #FFFFFF;
+	border: 1px solid #E7E7E7;
+}
+
+.style02_tab.ju-tabs-wrap .ju-tabs-panel-left {
+	border-left: 3px solid #262626;
+}
+
+.style02_tab.ju-tabs-wrap .ju-tabs-panel-right {
+	border-right: 3px solid #262626;
+}
+
+.style02_tab.ju-tabs-wrap .ju-tabs-panel .ju-tabs-content .ju-tabs-subcontent {
+	padding: 10px;
+}

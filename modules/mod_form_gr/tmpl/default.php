@@ -58,9 +58,9 @@ defined('_JEXEC') or die;
 					<div class="send">
 						<button class="btn_form<?php echo $module->id; ?> js-form-send form-send" type="submit" name="submit"><i class="icon-envelope"></i><span><?php echo $params->get('button_text'); ?></span></button>		
 					</div>
-				</div>	
+				</div>
 
-			<?php if ($params->get('captcha_on')) { ?>
+		<?php if ($params->get('captcha_on')) { ?>
 					<div class="captcha">
 						<div class="g-recaptcha" data-sitekey="<?php echo $params->get('captcha_key'); ?>"></div>
 					</div>	

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="field"
+           method="upgrade">
+    <name>Core Created</name>
+    <author>JoomUltra</author>
+    <creationDate>18 July 2014</creationDate>
+    <authorEmail>admin@joomultra.com</authorEmail>
+    <version>1.0</version>
+    <license>GNU/GPL</license>
+    <website>http://www.joomultra.com</website>
+    <description></description>
+    <folder>date</folder>
+    <core>1</core>
+    <default>1</default>
+    <fileset>
+        <files target="components/com_jucomment/fields/core_created">
+            <file>core_created.xml</file>
+            <file>core_created.php</file>
+            <file>index.html</file>
+            <folder>tmpl</folder>
+        </files>
+    </fileset>
+    <config>
+        <field
+                name="dateformat"
+                type="list"
+                default="l, d F Y"
+                class="jufilter"
+                label="COM_JUCOMMENT_FIELD_DATETIME_FORMAT_LABEL"
+                description="COM_JUCOMMENT_FIELD_DATETIME_FORMAT_DESC">
+            <option value="l, d F Y">COM_JUCOMMENT_DATE_FORMAT_LC</option>
+            <option value="l, d F Y">COM_JUCOMMENT_DATE_FORMAT_LC1</option>
+            <option value="l, d F Y H:i">COM_JUCOMMENT_DATE_FORMAT_LC2</option>
+            <option value="d F Y">COM_JUCOMMENT_DATE_FORMAT_LC3</option>
+            <option value="Y-m-d">COM_JUCOMMENT_DATE_FORMAT_LC4</option>
+            <option value="y-m-d">COM_JUCOMMENT_DATE_FORMAT_JS1</option>
+            <option value="custom">COM_JUCOMMENT_CUSTOM</option>
+        </field>
+
+        <field name="custom_dateformat"
+               type="text"
+               size="32"
+               default=""
+               class="jufilter-dateformat-custom"
+               label="COM_JUCOMMENT_FIELD_CUSTOM_DATE_FORMAT_LABEL"
+               description="COM_JUCOMMENT_FIELD_CUSTOM_DATE_FORMAT_DESC"
+        />
+
+        <field
+                name="filter"
+                type="list"
+                default="USER_UTC"
+                label="COM_JUCOMMENT_FIELD_FILTER_LABEL"
+                description="COM_JUCOMMENT_FIELD_FILTER_DESC">
+            <option value="USER_UTC">COM_JUCOMMENT_FILTER_USER_UTC</option>
+            <option value="SEVER_UTC">COM_JUCOMMENT_FILTER_SEVER_UTC</option>
+        </field>
+
+        <field name="size"
+               type="text"
+               default="32"
+               class="validate-numeric"
+               label="COM_JUCOMMENT_FIELD_SIZE_LABEL"
+               description="COM_JUCOMMENT_FIELD_SIZE_DESC"
+        />
+    </config>
+</extension>

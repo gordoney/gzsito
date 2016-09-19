@@ -1,0 +1,47 @@
+
+
+.default_accordion {
+	border: 1px solid #E7E7E7;
+	background: none repeat scroll 0% 0% #F7F7F7;
+	padding: 0px;
+}
+
+.default_accordion .ju-tabs-container {
+	border: 0px none;
+}
+
+.default_accordion ul.ju-tabs-accordion {
+	padding: 0px ! important;
+	margin: 0px ! important;
+}
+
+.default_accordion ul.ju-tabs-accordion li h3.ju-tabs-accordion-title.active {
+	background: none repeat scroll 0% 0% #FFFFFF;
+	color: #EE9900;
+}
+
+.default_accordion ul.ju-tabs-accordion li h3.ju-tabs-accordion-title {
+	background: none repeat scroll 0px 0px #FCFCFC;
+	text-transform: uppercase;
+	font-size: 12px;
+	border-bottom: 1px solid #E7E7E7;
+}
+
+.default_accordion ul.ju-tabs-accordion li h3.ju-tabs-accordion-title span.ju-tabs-accordion-arrow {
+}
+
+.default_accordion ul.ju-tabs-accordion li div.ju-tabs-accordion-content {
+	background: none repeat scroll 0% 0% #FFFFFF;
+}
+
+.default_accordion ul.ju-tabs-accordion-horizontal li div.ju-tabs-accordion-content {
+	border-right: 1px solid #E7E7E7;
+}
+
+.default_accordion ul.ju-tabs-accordion-vertical li div.ju-tabs-accordion-content {
+	border-bottom: 1px solid #E7E7E7;
+}
+
+.default_accordion ul.ju-tabs-accordion li div.ju-tabs-accordion-subcontent {
+	padding: 10px;
+}

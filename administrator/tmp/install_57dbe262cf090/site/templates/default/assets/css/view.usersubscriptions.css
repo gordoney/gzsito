@@ -1,0 +1,14 @@
+select#limit {
+    width: auto !important;
+    height: auto !important;
+}
+
+.filter-sort{
+    margin: 10px 0;
+}
+
+.filter-sort select {
+    float: left;
+    margin-right: 5px;
+    height: auto;
+}

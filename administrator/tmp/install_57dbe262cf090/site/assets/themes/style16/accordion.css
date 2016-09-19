@@ -1,0 +1,61 @@
+
+
+.style16_accordion {
+	padding: 0px;
+}
+
+.style16_accordion .ju-tabs-container {
+	border: 0px none;
+}
+
+.style16_accordion ul.ju-tabs-accordion {
+	padding: 0px ! important;
+	margin: 0px ! important;
+}
+
+.style16_accordion ul.ju-tabs-accordion-horizontal li h3.ju-tabs-accordion-title {
+	margin: 2px ! important;
+}
+
+.style16_accordion ul.ju-tabs-accordion-vertical li {
+	margin: 5px 0px;
+}
+
+.style16_accordion ul.ju-tabs-accordion li h3.ju-tabs-accordion-title.active {
+	color: #EE9900;
+	background: url("images/tab_bg2.png") repeat-x scroll left top -1px transparent;
+	border-bottom: 4px solid #EE9900;
+	border-radius: 5px 5px 2px 2px;
+}
+
+.style16_accordion ul.ju-tabs-accordion li h3.ju-tabs-accordion-title {
+	text-transform: uppercase;
+	font-size: 12px;
+	background: url("images/tab_bg2.png") repeat-x scroll left top -1px transparent;
+	border-width: 1px 1px 4px;
+	border-style: solid;
+	border-color: #E7E7E7;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.style16_accordion ul.ju-tabs-accordion li h3.ju-tabs-accordion-title span.ju-tabs-accordion-arrow {
+}
+
+.style16_accordion ul.ju-tabs-accordion li div.ju-tabs-accordion-content {
+	background: none repeat scroll 0% 0% #FFFFFF;
+}
+
+.style16_accordion ul.ju-tabs-accordion-horizontal li div.ju-tabs-accordion-content {
+	border: 1px solid #E7E7E7;
+	border-radius: 0px 5px 5px 0px;
+	margin: 2px 5px 2px -2px;
+}
+
+.style16_accordion ul.ju-tabs-accordion-vertical li div.ju-tabs-accordion-content {
+	border: 1px solid #E7E7E7;
+	margin-bottom: 5px;
+}
+
+.style16_accordion ul.ju-tabs-accordion li div.ju-tabs-accordion-subcontent {
+	padding: 10px;
+}

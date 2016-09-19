@@ -1,0 +1,160 @@
+
+
+.style15_tab .ju-tabs-title-top ul.ju-tabs-title li, .style15_tab .ju-tabs-title-bottom ul.ju-tabs-title li {
+	margin-right: 0px;
+}
+
+.style15_tab .ju-tabs-title-left ul.ju-tabs-title li.first h3, .style15_tab .ju-tabs-title-right ul.ju-tabs-title li.first h3 {
+	border-top: medium none;
+}
+
+.style15_tab .ju-tabs-title-top ul.ju-tabs-title li.first.active, .style15_tab .ju-tabs-title-bottom ul.ju-tabs-title li.first.active {
+	border-left: medium none;
+}
+
+.style15_tab ul.ju-tabs-title li.active {
+	background: none repeat scroll 0% 0% transparent;
+}
+
+.style15_tab .ju-tabs-title-top ul.ju-tabs-title li.active h3 {
+}
+
+.style15_tab .ju-tabs-title-top ul.ju-tabs-title li h3 {
+}
+
+.style15_tab .ju-tabs-title-bottom ul.ju-tabs-title li.active h3 {
+}
+
+.style15_tab .ju-tabs-title-bottom ul.ju-tabs-title li h3, .style15_tab .ju-tabs-title-top ul.ju-tabs-title li h3 {
+	border-right: 1px solid #363636;
+}
+
+.style15_tab .ju-tabs-title-left ul.ju-tabs-title li, .style15_tab .ju-tabs-title-right ul.ju-tabs-title li {
+	padding: 0px;
+	margin: 0px;
+}
+
+.style15_tab .ju-tabs-title-right ul.ju-tabs-title li.active h3 {
+	border-left: medium none;
+}
+
+.style15_tab .ju-tabs-title-right ul.ju-tabs-title li h3 {
+}
+
+.style15_tab .ju-tabs-title-left ul.ju-tabs-title li.active h3 {
+	border-right: medium none;
+}
+
+.style15_tab .ju-tabs-title-left ul.ju-tabs-title li h3, .style15_tab .ju-tabs-title-right ul.ju-tabs-title li h3 {
+	border-top: 1px solid #363636;
+}
+
+.style15_tab .ju-tabs-title-wrap.ju-tabs-title-top {
+	border-bottom: 1px solid #E7E7E7;
+	background: none repeat scroll 0% 0% #292929;
+}
+
+.style15_tab .ju-tabs-title-wrap.ju-tabs-title-bottom {
+	border-top: 1px solid #E7E7E7;
+	background: none repeat scroll 0% 0% #292929;
+}
+
+.style15_tab .ju-tabs-title-wrap.ju-tabs-title-left {
+	margin-right: -1px;
+	background: none repeat scroll 0% 0% #292929;
+	border-right: 1px solid #363636;
+}
+
+.style15_tab .ju-tabs-title-wrap.ju-tabs-title-right {
+	margin-left: -1px;
+	background: none repeat scroll 0% 0% #292929;
+	border-left: 1px solid #363636;
+}
+
+.style15_tab.ju-tabs-wrap .ju-tabs-container {
+	border: 1px solid #E7E7E7;
+	background: none repeat scroll 0% 0% #292929;
+}
+
+.style15_tab.ju-tabs-wrap ul.ju-tabs-title li h3 {
+	padding: 0px ! important;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-size: 12px;
+	background: none repeat scroll 0px 0px #292929;
+	color: #999999;
+}
+
+.style15_tab.ju-tabs-wrap ul.ju-tabs-title li.active h3 {
+	color: #EE9900;
+	background: none repeat scroll 0% 0% #000000;
+}
+
+.style15_tab.ju-tabs-wrap ul.ju-tabs-title h3 span {
+	display: block;
+	padding: 7px 10px;
+}
+
+.style15_tab.ju-tabs-wrap ul.ju-tabs-title h3 span.ju-tabs-arrow {
+	display: none;
+}
+
+.style15_tab.ju-tabs-wrap .ju-tabs-title-top li.active h3 span.ju-tabs-arrow {
+	display: block;
+	width: 13px;
+	height: 7px;
+	padding: 0px;
+	left: 50%;
+	margin-left: -7px;
+	background: url("images/tab_arrow.png") no-repeat scroll 0px 0px #FFFFFF;
+}
+
+.style15_tab.ju-tabs-wrap .ju-tabs-title-bottom li.active h3 span.ju-tabs-arrow {
+	display: block;
+	width: 13px;
+	height: 7px;
+	padding: 0px;
+	left: 50%;
+	margin-left: -7px;
+	top: -7px;
+	background: url("images/tab_arrow.png") no-repeat scroll 0px -7px #FFFFFF;
+}
+
+.style15_tab.ju-tabs-wrap .ju-tabs-title-left li.active h3 span.ju-tabs-arrow {
+	display: block;
+	padding: 0px;
+	top: 50%;
+	margin-top: -7px;
+	height: 13px;
+	width: 7px;
+	right: -7px;
+	background: url("images/tab_arrow.png") no-repeat scroll 0px -14px transparent;
+}
+
+.style15_tab.ju-tabs-wrap .ju-tabs-title-right li.active h3 span.ju-tabs-arrow {
+	display: block;
+	padding: 0px;
+	top: 50%;
+	margin-top: -7px;
+	height: 13px;
+	width: 7px;
+	left: -7px;
+	background: url("images/tab_arrow.png") no-repeat scroll right -27px transparent;
+}
+
+.style15_tab.ju-tabs-wrap .ju-tabs-panel {
+	background: none repeat scroll 0% 0% #FFFFFF;
+	border: 0px none;
+}
+
+.style15_tab.ju-tabs-wrap .ju-tabs-panel-left {
+	border-left: 1px solid #E7E7E7;
+}
+
+.style15_tab.ju-tabs-wrap .ju-tabs-panel-right {
+	border-right: 1px solid #E7E7E7;
+}
+
+.style15_tab.ju-tabs-wrap .ju-tabs-panel .ju-tabs-content .ju-tabs-subcontent {
+	padding: 10px;
+}

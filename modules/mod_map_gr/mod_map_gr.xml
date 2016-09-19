@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="3.0"
+	client="site"
+	method="upgrade">
+	<name>Модуль карты</name>
+	<author>Sergei Bolonikov</author>
+	<creationDate>2016</creationDate>
+	<copyright></copyright>
+	<license></license>
+	<authorEmail>sergeibolonikov@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.0</version>
+	<description>Модуль карты</description>
+	<files>
+        <folder>tmpl</folder>
+		<filename module="mod_map_gr">mod_map_gr.php</filename>
+		<filename>index.html</filename>		
+		<filename>mod_map_gr.xml</filename>
+        <filename>helper.php</filename>
+        <filename>script.js</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="mapx" type="text"
+					label="Центр карты (x)" />		
+				<field name="mapy" type="text"
+					label="Центр карты (y)" />	
+				<field name="mapzoom" type="text"
+					label="zoom карты" />	 
+                <field name="address" type="text"
+                    label="Адрес" />               
+ 
+				<field name="marker"
+					type="Repeatable"
+					description="Контент"
+					label="Контент">
+					<fieldset name="marker-block" repeat="true">	
+						<field name="markerx" type="text"
+							label="Координаты x" />		
+						<field name="markery" type="text"
+							label="Координаты y" />		                     
+					</fieldset>
+				</field>				
+			</fieldset>
+			<fieldset name="modal" label="В модальном окне">
+                <field name="modal-on" type="checkbox"
+                    label="В модальном окне" />	
+                <field name="modal-btn-text" type="text"
+                    label="Текст на кнопке" />					
+			</fieldset>
+			<fieldset name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+			</fieldset>	
+		</fields>
+	</config>
+</extension>

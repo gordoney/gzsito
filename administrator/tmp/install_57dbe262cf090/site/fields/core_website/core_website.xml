@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="field"
+           method="upgrade">
+    <name>Core Website</name>
+    <author>JoomUltra</author>
+    <creationDate>18 July 2014</creationDate>
+    <authorEmail>admin@joomultra.com</authorEmail>
+    <version>1.0</version>
+    <license>GNU/GPL</license>
+    <website>http://www.joomultra.com</website>
+    <description></description>
+    <folder>core_website</folder>
+    <core>1</core>
+    <default>1</default>
+    <fileset>
+        <files target="components/com_jucomment/fields/core_website">
+            <file>core_website.xml</file>
+            <file>core_website.php</file>
+            <file>index.html</file>
+        </files>
+    </fileset>
+    <config>
+        <fieldset name="validate" label="Validate">
+            <field
+                name="regex"
+                type="text"
+                default="(https?:\/\/)?([\da-zA-Z\.-]+)\.([a-zA-Z\.]{2,6}).*"
+                label="COM_JUCOMMENT_FIELD_REGEX_LABEL"
+                description="COM_JUCOMMENT_FIELD_REGEX_DESC"
+            />
+        </fieldset>
+    </config>
+</extension>

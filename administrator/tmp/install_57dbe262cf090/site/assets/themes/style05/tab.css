@@ -1,0 +1,183 @@
+
+
+.style05_tab .ju-tabs-title-top ul.ju-tabs-title li, .style05_tab .ju-tabs-title-bottom ul.ju-tabs-title li {
+	margin-right: 3px;
+}
+
+.style05_tab .ju-tabs-title-left ul.ju-tabs-title li.first, .style05_tab .ju-tabs-title-right ul.ju-tabs-title li.first {
+}
+
+.style05_tab .ju-tabs-title-top ul.ju-tabs-title li.first.active, .style05_tab .ju-tabs-title-bottom ul.ju-tabs-title li.first.active {
+}
+
+.style05_tab ul.ju-tabs-title li.active {
+}
+
+.style05_tab .ju-tabs-title-top ul.ju-tabs-title li.active h3 {
+	background: url("images/tab_bg2.png") repeat-x scroll 0px bottom #FFFFFF;
+}
+
+.style05_tab .ju-tabs-title-top ul.ju-tabs-title li h3 {
+}
+
+.style05_tab .ju-tabs-title-bottom ul.ju-tabs-title li.active h3 {
+	background: url("images/tab_bg1.png") repeat-x scroll 0px top #FFFFFF;
+}
+
+.style05_tab .ju-tabs-title-top ul.ju-tabs-title li h3 {
+	border-right: 1px solid #E7E7E7;
+	border-left: 1px solid #E7E7E7;
+	border-top: 1px solid #E7E7E7;
+	background: url("images/tab_bg1.png") repeat-x scroll 0px bottom #FCFCFC;
+}
+
+.style05_tab .ju-tabs-title-bottom ul.ju-tabs-title li h3 {
+	border-right: 1px solid #E7E7E7;
+	border-left: 1px solid #E7E7E7;
+	border-bottom: 1px solid #E7E7E7;
+	background: url("images/tab_bg2.png") repeat-x scroll 0px top #FCFCFC;
+}
+
+.style05_tab .ju-tabs-title-left ul.ju-tabs-title li, .style05_tab .ju-tabs-title-right ul.ju-tabs-title li {
+	padding: 0px;
+	margin: 0px 0px 3px;
+}
+
+.style05_tab .ju-tabs-title-left ul.ju-tabs-title li.last, .style05_tab .ju-tabs-title-right ul.ju-tabs-title li.last {
+	margin-bottom: 0px;
+}
+
+.style05_tab .ju-tabs-title-right ul.ju-tabs-title li.active h3 {
+	background: url("images/tab_bg3.png") repeat-y scroll right -1px top #FFFFFF;
+}
+
+.style05_tab .ju-tabs-title-right ul.ju-tabs-title li h3 {
+	border-top: 1px solid #E7E7E7;
+	border-bottom: 1px solid #E7E7E7;
+	border-right: 1px solid #E7E7E7;
+	background: url("images/tab_bg4.png") repeat-y scroll left 0px #FFFFFF;
+}
+
+.style05_tab .ju-tabs-title-left ul.ju-tabs-title li.active h3 {
+	background: url("images/tab_bg4.png") repeat-y scroll left -1px top #FFFFFF;
+}
+
+.style05_tab .ju-tabs-title-left ul.ju-tabs-title li h3 {
+	border-top: 1px solid #E7E7E7;
+	border-left: 1px solid #E7E7E7;
+	border-bottom: 1px solid #E7E7E7;
+	background: url("images/tab_bg3.png") repeat-y scroll right 0px #FFFFFF;
+}
+
+.style05_tab .ju-tabs-title-top ul.ju-tabs-title li.first, .style05_tab .ju-tabs-title-bottom ul.ju-tabs-title li.first {
+	margin-left: 10px;
+}
+
+.style05_tab .ju-tabs-title-left ul.ju-tabs-title li.first, .style05_tab .ju-tabs-title-right ul.ju-tabs-title li.first {
+	margin-top: 10px;
+}
+
+.style05_tab .ju-tabs-title-top ul.ju-tabs-title {
+	width: 100%;
+	background: url("images/header_bg.gif") repeat-x scroll 0px bottom transparent;
+}
+
+.style05_tab .ju-tabs-title-wrap.ju-tabs-title-top {
+}
+
+.style05_tab .ju-tabs-title-bottom ul.ju-tabs-title {
+	width: 100%;
+	background: url("images/header_bg.gif") repeat-x scroll 0px top transparent;
+}
+
+.style05_tab .ju-tabs-title-left ul.ju-tabs-title {
+	background: url("images/header_bg.gif") repeat-y scroll right 0px transparent;
+}
+
+.style05_tab .ju-tabs-title-right ul.ju-tabs-title {
+}
+
+.style05_tab .ju-tabs-title-wrap.ju-tabs-title-bottom {
+}
+
+.style05_tab .ju-tabs-title-wrap.ju-tabs-title-left {
+	background: none repeat scroll 0% 0% transparent;
+	margin-right: -1px;
+}
+
+.style05_tab .ju-tabs-title-wrap.ju-tabs-title-right {
+	margin-left: -1px;
+	background: none repeat scroll 0px 0px transparent;
+}
+
+.style05_tab.ju-tabs-wrap .ju-tabs-container {
+	border: 0px none;
+	background: none repeat scroll 0% 0% transparent;
+}
+
+.style05_tab.ju-tabs-wrap ul.ju-tabs-title li h3 {
+	padding: 0px ! important;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.style05_tab.ju-tabs-wrap ul.ju-tabs-title li.active h3 {
+	color: #EE9900;
+}
+
+.style05_tab.ju-tabs-wrap ul.ju-tabs-title li h3 span {
+	display: block;
+	padding: 8px 10px;
+}
+
+.style05_tab.ju-tabs-wrap .ju-tabs-title-top li.active h3 span {
+	display: block;
+	padding: 8px 10px;
+}
+
+.style05_tab.ju-tabs-wrap .ju-tabs-title-bottom li.active h3 span {
+	display: block;
+	padding: 8px 10px;
+}
+
+.style05_tab.ju-tabs-wrap ul.ju-tabs-title h3 span.ju-tabs-arrow {
+	display: none;
+}
+
+.style05_tab.ju-tabs-wrap .ju-tabs-panel {
+	background: none repeat scroll 0% 0% #FFFFFF;
+	border: 0px none;
+}
+
+.style05_tab.ju-tabs-wrap .ju-tabs-panel-top {
+	margin-top: 2px;
+	border-left: 1px solid #E7E7E7;
+	border-right: 1px solid #E7E7E7;
+	border-bottom: 1px solid #E7E7E7;
+}
+
+.style05_tab.ju-tabs-wrap .ju-tabs-panel-bottom {
+	border-top: 1px solid #E7E7E7;
+	border-left: 1px solid #E7E7E7;
+	border-right: 1px solid #E7E7E7;
+	margin-bottom: 2px;
+}
+
+.style05_tab.ju-tabs-wrap .ju-tabs-panel-left {
+	border-top: 1px solid #E7E7E7;
+	border-bottom: 1px solid #E7E7E7;
+	border-right: 1px solid #E7E7E7;
+	background: url("images/header_bg.gif") repeat-y scroll left 0px #FFFFFF;
+}
+
+.style05_tab.ju-tabs-wrap .ju-tabs-panel-right {
+	border-top: 1px solid #E7E7E7;
+	border-bottom: 1px solid #E7E7E7;
+	border-left: 1px solid #E7E7E7;
+	background: url("images/header_bg.gif") repeat-y scroll right 0px #FFFFFF;
+}
+
+.style05_tab.ju-tabs-wrap .ju-tabs-panel .ju-tabs-content .ju-tabs-subcontent {
+	padding: 10px;
+}

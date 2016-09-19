@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension>
+	<config>
+		<field name="size"
+			   type="text"
+			   default="32"
+			   class="validate-numeric"
+			   label="COM_JUCOMMENT_FIELD_SIZE_LABEL"
+			   description="COM_JUCOMMENT_FIELD_SIZE_DESC"
+		/>
+	</config>
+    <cat_config>
+		<field name="size"
+			   type="text"
+			   default="32"
+			   class="validate-numeric"
+			   label="COM_JUCOMMENT_FIELD_SIZE_LABEL"
+			   description="COM_JUCOMMENT_FIELD_SIZE_DESC"
+		/>
+    </cat_config>
+</extension>
