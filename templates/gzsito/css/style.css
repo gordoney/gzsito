@@ -1243,15 +1243,18 @@ h2 {
   padding: 0;
   border: none;
   font-weight: 700;
+  font-size: inherit;
 }
 .page-name,
 .componentheading,
 .page-header,
-.page-head {
+.page-head,
+.subheading-category {
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
   padding: 20px 0 35px 0;
+  display: block;
 }
 .item-page {
   min-height: 300px;
@@ -1298,6 +1301,46 @@ h2 {
 }
 .right-block-content .mod_form_gr button:hover {
   background-color: #ff003c;
+}
+.items-more {
+  display: none;
+}
+/*------------------------------------*\
+    #PAGINATION (пагинация)
+\*------------------------------------*/
+.pagination {
+  text-align: center;
+  width: 100%;
+}
+.pagination .pagination-start,
+.pagination .pagination-prev,
+.pagination .pagination-next,
+.pagination .pagination-end,
+.pagination .counter {
+  display: none;
+}
+.pagination li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.pagination a,
+.pagination span {
+  height: 30px;
+  width: 30px;
+  display: block;
+  padding-top: 8px;
+  font-size: 16px;
+}
+.pagination span {
+  background-color: #284492;
+  color: #ffffff;
+  border-radius: 100%;
+}
+.pagination a {
+  color: #284492;
+}
+.pagination a:hover {
+  color: #ff003c;
 }
 /*------------------------------------*\
     #GUESTBOOK (контент)
@@ -1361,4 +1404,39 @@ h2 {
 }
 #easybook .easy_entrylink {
   padding: 0;
+}
+/*------------------------------------*\
+    #NEWS (список новостей)
+\*------------------------------------*/
+.blog .page-header {
+  font-size: 20px;
+  padding: 0 0 15px 0;
+  text-transform: none;
+}
+.blog .items-leading > div {
+  padding-bottom: 35px;
+}
+.blog a {
+  color: #284492;
+}
+.blog a:hover {
+  color: #ff003c;
+}
+.blog p {
+  line-height: 1.4;
+}
+/*------------------------------------*\
+    #SEARCH_PAGE (страница поиска)
+\*------------------------------------*/
+.main-content .search input {
+  height: 30px;
+}
+.main-content .search .searchintro {
+  padding: 15px 0;
+}
+.main-content .search .result-text {
+  padding-bottom: 20px;
+}
+.main-content .search .form-limit {
+  display: none;
 }

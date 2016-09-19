@@ -1499,13 +1499,15 @@ h1 {
     padding: 0;
     border: none;
     font-weight: 700;
+    font-size: inherit;
 }
 
-.page-name, .componentheading, .page-header, .page-head {
+.page-name, .componentheading, .page-header, .page-head, .subheading-category {
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
     padding: 20px 0 35px 0;
+    display: block;
 }
 
 .item-page {
@@ -1555,6 +1557,55 @@ h1 {
             &:hover {
                 background-color: @color2;
             }
+        }
+    }
+}
+
+.items-more {
+    display: none;
+}
+
+
+
+
+
+
+
+/*------------------------------------*\
+    #PAGINATION (пагинация)
+\*------------------------------------*/
+.pagination {
+    text-align: center;
+    width: 100%;
+
+    .pagination-start, .pagination-prev, .pagination-next, .pagination-end, .counter {
+        display: none;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    a, span {
+        height: 30px;
+        width: 30px;
+        display: block;
+        padding-top: 8px;
+        font-size: 16px;
+    }
+
+    span {
+        background-color: @color1;
+        color: @font-color4;
+        border-radius: 100%;
+    }
+
+    a {
+        color: @font-color1;
+
+        &:hover {
+            color: @font-color2;
         }
     }
 }
@@ -1630,5 +1681,67 @@ h1 {
 
     .easy_entrylink {
         padding: 0;
+    }
+}
+
+
+
+
+
+
+
+/*------------------------------------*\
+    #NEWS (список новостей)
+\*------------------------------------*/
+.blog {
+    .page-header {
+        font-size: 20px;
+        padding: 0 0 15px 0;
+        text-transform: none;
+    }
+
+    .items-leading > div {
+        padding-bottom: 35px;
+    }
+
+    a {
+        color: @font-color1;
+
+        &:hover {
+            color: @font-color2;
+        }
+    }
+
+    p {
+       line-height: 1.4;
+    }
+}
+
+
+
+
+
+
+
+/*------------------------------------*\
+    #SEARCH_PAGE (страница поиска)
+\*------------------------------------*/
+.main-content {
+    .search {
+        input {
+            height: 30px;
+        }
+
+        .searchintro {
+            padding: 15px 0;
+        }
+
+        .result-text {
+            padding-bottom: 20px;
+        }
+
+        .form-limit {
+            display: none;
+        }
     }
 }
