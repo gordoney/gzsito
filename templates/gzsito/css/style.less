@@ -215,8 +215,19 @@ h1 {
     width: 20%;
     margin-right: 3%;
 
-    img {
+    .logo {
         width: 100%;
+        display: block;
+        height: 96px;
+        background-image: url(../images/logo.png);
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        .transition(0.2s);
+
+        &:hover {
+            background-image: url(../images/logo-hover.png);
+        }
     }
 }
 
@@ -911,6 +922,21 @@ h1 {
     #FOOTER (футер)
 \*------------------------------------*/
 .footer {
+    .logo {
+        width: 100%;
+        display: block;
+        height: 62px;
+        background-image: url(../images/logo.png);
+        background-size: contain;
+        background-position: left center;
+        background-repeat: no-repeat;
+        .transition(0.2s);
+
+        &:hover {
+            background-image: url(../images/logo-hover.png);
+        }
+    }
+
     .container {
         padding-top: 25px;
         padding-bottom: 25px;
@@ -1032,6 +1058,12 @@ h1 {
 
     .input {
         height: 38px;
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    textarea.input {
+        height: 100px;
         width: 100%;
         padding: 0 10px;
     }

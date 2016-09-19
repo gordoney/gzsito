@@ -40,6 +40,9 @@ $pageClass = $activeMenu->params['pageclass_sfx']; ?>
 	<div id="header" class="header">
 		<div class="container clearfix">
 			<div class="header-block header-left">
+				<a href="/" class="logo">
+
+				</a>
 				<jdoc:include type="modules" name="header-left" style="none" />
 			</div>
 			<div class="header-block header-center">
@@ -133,6 +136,11 @@ $pageClass = $activeMenu->params['pageclass_sfx']; ?>
 
     <div id="footer" class="footer">
         <div class="container clearfix">
+			<div class="custom">
+				<a href="/" class="logo">
+
+				</a>
+			</div>
 			<jdoc:include type="modules" name="footer" style="none" />
 			<div class="medialine custom">
 				<?php if(JURI::current() !== JURI::base()){?>
