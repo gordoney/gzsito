@@ -212,17 +212,17 @@ h1 {
   width: 10%;
   float: left;
 }
-.mod-languages a {
+.mod-languages .dropdown > a {
   display: inline-block;
   padding: 7px 25px 7px 10px;
   border: 2px solid #cccccc;
   border-radius: 3px;
   position: relative;
 }
-.mod-languages a:hover {
+.mod-languages .dropdown > a:hover {
   border: 2px solid #999999;
 }
-.mod-languages a:after {
+.mod-languages .dropdown > a:after {
   content: '';
   position: absolute;
   border-left: 4px solid transparent;
@@ -236,18 +236,21 @@ h1 {
   -moz-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
-.mod-languages a:hover:after {
+.mod-languages .dropdown > a:hover:after {
   border-top: 5px solid #999999;
 }
 .mod-languages .dropdown-menu {
   min-width: 10px;
 }
 .mod-languages li {
-  padding: 10px 0;
   cursor: pointer;
   margin-right: 2px !important;
   width: 54px;
   text-align: center;
+}
+.mod-languages li a {
+  display: block;
+  padding: 10px 0;
 }
 /*------------------------------------*\
     #MOD_MENU_TOP (модуль верхнего меню)
@@ -365,6 +368,14 @@ h1 {
 }
 .mod_form_gr .modal_form_btn.call:hover:after {
   animation: shake 0.4s linear;
+}
+.captcha {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.captcha > div {
+  display: inline-block;
 }
 /*------------------------------------*\
     #SLIDER (Слайдер)
@@ -877,7 +888,7 @@ h1 {
 }
 .modal-content .send {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 .modal-content button {
   padding: 6px 70px;
@@ -895,7 +906,7 @@ h1 {
   color: #284492;
 }
 /*------------------------------------*\
-    #MOD_CATEGORY_INNER (модуль категорий на внутренних страницах)
+    CATEGORY_INNER (модуль категорий на внутренних страницах)
 \*------------------------------------*/
 .mod_blocks_gr.catalog {
   background-color: #d5ddf3;
@@ -1426,6 +1437,9 @@ h2 {
   border-right: 5px solid #5172cf;
   background-image: none;
 }
+#easybook .easy_admincomment img {
+  display: none;
+}
 #easybook .easy_frame {
   margin-bottom: 35px;
   -webkit-transition: all 0.2s linear;
@@ -1438,6 +1452,12 @@ h2 {
 }
 #easybook .easy_entrylink {
   padding: 0;
+}
+#easybook .easy_small {
+  font-size: 14px;
+}
+#easybook .easy_top_left {
+  padding-top: 8px;
 }
 /*------------------------------------*\
     #NEWS (список новостей)

@@ -144,9 +144,9 @@ $pageClass = $activeMenu->params['pageclass_sfx']; ?>
 			<jdoc:include type="modules" name="footer" style="none" />
 			<div class="medialine custom">
 				<?php if(JURI::current() !== JURI::base()){?>
-					<span>Разработка сайта - </span><a target="_blank" rel="nofollow" href="http://www.medialine.by/">Media Line</a>
+					<span><?php echo JText :: _('MOD_MAIN_SITE_DEVELOPMENT'); ?> - </span><a target="_blank" rel="nofollow" href="http://www.medialine.by/">Media Line</a>
 				<?php } else { ?>
-					<span>Разработка сайта - </span><a target="_blank" href="http://www.medialine.by/">Media Line</a>
+					<span><?php echo JText :: _('MOD_MAIN_SITE_DEVELOPMENT'); ?> - </span><a target="_blank" href="http://www.medialine.by/">Media Line</a>
 				<?php } ?>
 			</div>
 		</div>	

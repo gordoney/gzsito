@@ -32,8 +32,10 @@ $languageActive = JFactory::getLanguage()->getTag();
             </a>
             <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
                 <?php foreach($list as $language):?>
-                    <li onclick="document.location.replace(<?php echo $language->link;?>);">
-                        <?php echo JHtml::_('image', 'mod_falang/'.$language->image.'.gif', $language->title_native, array('title'=>$language->title_native), true);?>
+                    <li>
+                        <a href="<?php echo $language->link;?>">
+                            <?php echo JHtml::_('image', 'mod_falang/'.$language->image.'.gif', $language->title_native, array('title'=>$language->title_native), true);?>
+                        </a>
                     </li>
                 <?php endforeach; ?>
             </ul>

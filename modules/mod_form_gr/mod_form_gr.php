@@ -7,7 +7,7 @@
  */
 
 // no direct access
-defined('_JEXEC') or die; 
+defined('_JEXEC') or die;
 
 require_once dirname(__FILE__).'/helper.php';
 
@@ -16,8 +16,8 @@ $document = JFactory::getDocument();
 $document->addScript(JURI::base().'modules/'.$module->module.'/script.js');
 
 if ($params->get('captcha_on')) {
-	$document->addScript("https://www.google.com/recaptcha/api.js");
-}	
+	$document->addScript("https://www.google.com/recaptcha/api.js?onload=captchaCallBack&render=explicit");
+}
 
 $fields = modFormGrHelper::getFields($params);
 
